@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_gradebook
+END
+lang-brazilian.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-brazilian.php
+END
+lang-hungarian.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-hungarian.php
+END
+lang-korean.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-korean.php
+END
+module.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/efrontlearning/!svn/ver/309/community/www/modules/module_gradebook/module.xml
+END
+lang-arabic.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-arabic.php
+END
+lang-ukrainian.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-ukrainian.php
+END
+lang-chinese_simplified.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-chinese_simplified.php
+END
+lang-serbian.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-serbian.php
+END
+lang-russian.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-russian.php
+END
+lang-thai.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-thai.php
+END
+lang-indonesian.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/461/community/www/modules/module_gradebook/lang-indonesian.php
+END
+module_gradebook.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_gradebook/module_gradebook.class.php
+END
+lang-turkish.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-turkish.php
+END
+lang-hindi.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-hindi.php
+END
+lang-czech.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-czech.php
+END
+lang-greek.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_gradebook/lang-greek.php
+END
+module_gradebook_professor.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_gradebook/module_gradebook_professor.tpl
+END
+lang-latvian.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-latvian.php
+END
+lang-finnish.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-finnish.php
+END
+lang-slovenian.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-slovenian.php
+END
+lang-vietnamese.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-vietnamese.php
+END
+lang-catalan.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-catalan.php
+END
+module_gradebook_admin.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_gradebook/module_gradebook_admin.tpl
+END
+lang-romanian.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-romanian.php
+END
+lang-danish.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-danish.php
+END
+lang-swedish.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-swedish.php
+END
+lang-galician.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-galician.php
+END
+lang-filipino.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-filipino.php
+END
+lang-hebrew.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-hebrew.php
+END
+lang-italian.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-italian.php
+END
+lang-japanese.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-japanese.php
+END
+lang-norwegian.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-norwegian.php
+END
+lang-english.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_gradebook/lang-english.php
+END
+lang-lithuanian.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-lithuanian.php
+END
+lang-polish.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-polish.php
+END
+lang-slovak.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-slovak.php
+END
+lang-croatian.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-croatian.php
+END
+lang-persian.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-persian.php
+END
+module_gradebook_student.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/efrontlearning/!svn/ver/595/community/www/modules/module_gradebook/module_gradebook_student.tpl
+END
+lang-portuguese.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-portuguese.php
+END
+lang-bulgarian.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-bulgarian.php
+END
+lang-albanian.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-albanian.php
+END
+lang-french.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-french.php
+END
+lang-spanish.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-spanish.php
+END
+lang-latin_american.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-latin_american.php
+END
+lang-dutch.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-dutch.php
+END
+lang-chinese_traditional.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-chinese_traditional.php
+END
+lang-german.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_gradebook/lang-german.php
+END

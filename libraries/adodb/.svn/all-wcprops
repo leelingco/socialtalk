@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/14/community/libraries/adodb/license.txt
+END
+adodb-time.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/adodb-time.inc.php
+END
+adodb-exceptions.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/adodb-exceptions.inc.php
+END
+adodb-csvlib.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/adodb-csvlib.inc.php
+END
+adodb.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/adodb.inc.php
+END
+adodb-lib.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/efrontlearning/!svn/ver/14/community/libraries/adodb/adodb-lib.inc.php
+END
+adodb-active-record.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/adodb-active-record.inc.php
+END
+adodb-errorhandler.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/adodb-errorhandler.inc.php
+END
+adodb-error.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/efrontlearning/!svn/ver/14/community/libraries/adodb/adodb-error.inc.php
+END
+adodb-iterator.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/adodb-iterator.inc.php
+END

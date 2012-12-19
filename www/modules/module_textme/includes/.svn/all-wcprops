@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/efrontlearning/!svn/ver/475/community/www/modules/module_textme/includes
+END
+install_queries.inc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/efrontlearning/!svn/ver/475/community/www/modules/module_textme/includes/install_queries.inc
+END
+uninstall_queries.inc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/efrontlearning/!svn/ver/475/community/www/modules/module_textme/includes/uninstall_queries.inc
+END

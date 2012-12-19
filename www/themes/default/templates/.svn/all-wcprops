@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/711/community/www/themes/default/templates
+END
+studentpage.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/105/community/www/themes/default/templates/studentpage.tpl
+END
+charts.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/charts.tpl
+END
+questions_order.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/questions_order.tpl
+END
+student.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/student.tpl
+END
+send_file.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/send_file.tpl
+END
+import_export_users.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/import_export_users.tpl
+END
+analyze_code.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/analyze_code.tpl
+END
+external_survey.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/587/community/www/themes/default/templates/external_survey.tpl
+END
+display_code.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/display_code.tpl
+END
+apidemo2.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/efrontlearning/!svn/ver/567/community/www/themes/default/templates/apidemo2.tpl
+END
+lessons_info.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/lessons_info.tpl
+END
+browse.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/browse.tpl
+END
+add_survey.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/add_survey.tpl
+END
+search_courses.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/497/community/www/themes/default/templates/search_courses.tpl
+END
+social.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/efrontlearning/!svn/ver/610/community/www/themes/default/templates/social.tpl
+END
+module_systemConfig.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/module_systemConfig.tpl
+END
+hcd_users.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/497/community/www/themes/default/templates/hcd_users.tpl
+END
+professorpage.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/105/community/www/themes/default/templates/professorpage.tpl
+END
+stress_tool.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/stress_tool.tpl
+END
+system_announcements.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/system_announcements.tpl
+END
+view_resource.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/view_resource.tpl
+END
+professor.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/professor.tpl
+END
+new_sidebar.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/595/community/www/themes/default/templates/new_sidebar.tpl
+END
+browsecontent.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/browsecontent.tpl
+END
+show_avatars.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/show_avatars.tpl
+END
+sso.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/sso.tpl
+END
+content_report.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/684/community/www/themes/default/templates/content_report.tpl
+END
+change_style.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/change_style.tpl
+END
+index.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/index.tpl
+END
+view_test.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/650/community/www/themes/default/templates/view_test.tpl
+END
+add_files.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/add_files.tpl
+END
+emails.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/emails.tpl
+END
+import_export.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/import_export.tpl
+END
+administratorpage.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/105/community/www/themes/default/templates/administratorpage.tpl
+END
+apidemo.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/efrontlearning/!svn/ver/258/community/www/themes/default/templates/apidemo.tpl
+END
+administrator.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/704/community/www/themes/default/templates/administrator.tpl
+END

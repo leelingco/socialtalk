@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/704/community/www/themes/default/templates/includes/blocks
+END
+facebook_login.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/includes/blocks/facebook_login.tpl
+END
+lessons_info.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/efrontlearning/!svn/ver/704/community/www/themes/default/templates/includes/blocks/lessons_info.tpl
+END
+checker.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/efrontlearning/!svn/ver/662/community/www/themes/default/templates/includes/blocks/checker.tpl
+END
+online_users.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/includes/blocks/online_users.tpl
+END
+search.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/includes/blocks/search.tpl
+END
+signup.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/efrontlearning/!svn/ver/48/community/www/themes/default/templates/includes/blocks/signup.tpl
+END
+login.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/efrontlearning/!svn/ver/603/community/www/themes/default/templates/includes/blocks/login.tpl
+END
+cart.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/efrontlearning/!svn/ver/592/community/www/themes/default/templates/includes/blocks/cart.tpl
+END
+contact.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/includes/blocks/contact.tpl
+END
+news.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/includes/blocks/news.tpl
+END
+reset_pwd.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/includes/blocks/reset_pwd.tpl
+END
+selected_lessons.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/includes/blocks/selected_lessons.tpl
+END
+expired.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/efrontlearning/!svn/ver/465/community/www/themes/default/templates/includes/blocks/expired.tpl
+END
+links.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/efrontlearning/!svn/ver/100/community/www/themes/default/templates/includes/blocks/links.tpl
+END

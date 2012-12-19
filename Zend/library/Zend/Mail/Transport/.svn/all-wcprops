@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/efrontlearning/!svn/ver/14/community/Zend/library/Zend/Mail/Transport
+END
+Sendmail.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/14/community/Zend/library/Zend/Mail/Transport/Sendmail.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/14/community/Zend/library/Zend/Mail/Transport/Exception.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/14/community/Zend/library/Zend/Mail/Transport/Abstract.php
+END
+Smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/efrontlearning/!svn/ver/14/community/Zend/library/Zend/Mail/Transport/Smtp.php
+END

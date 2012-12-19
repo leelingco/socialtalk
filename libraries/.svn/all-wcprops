@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/efrontlearning/!svn/ver/711/community/libraries
+END
+module.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/module.class.php
+END
+coupons.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/efrontlearning/!svn/ver/371/community/libraries/coupons.class.php
+END
+ims.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/efrontlearning/!svn/ver/669/community/libraries/ims.class.php
+END
+forum.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/forum.class.php
+END
+PersonalMessage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/efrontlearning/!svn/ver/647/community/libraries/PersonalMessage.class.php
+END
+tools.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/tools.php
+END
+course.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/course.class.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/efrontlearning/!svn/ver/495/community/libraries/database.php
+END
+payments.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/payments.class.php
+END
+xml_export.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/xml_export.class.php
+END
+sso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/efrontlearning/!svn/ver/371/community/libraries/sso.class.php
+END
+calendar.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/702/community/libraries/calendar.class.php
+END
+pdf.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/efrontlearning/!svn/ver/669/community/libraries/pdf.class.php
+END
+import_export.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/import_export.class.php
+END
+entity.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/692/community/libraries/entity.class.php
+END
+user.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/user.class.php
+END
+globals.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/globals.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/efrontlearning/!svn/ver/14/community/libraries/.htaccess
+END
+scorm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/efrontlearning/!svn/ver/706/community/libraries/scorm.class.php
+END
+system.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/system.class.php
+END
+comments.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/684/community/libraries/comments.class.php
+END
+themes.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/688/community/libraries/themes.class.php
+END
+notification.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/notification.class.php
+END
+bookmarks.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/14/community/libraries/bookmarks.class.php
+END
+benchmark.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/efrontlearning/!svn/ver/680/community/libraries/benchmark.class.php
+END
+statistics.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/statistics.class.php
+END
+group.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/group.class.php
+END
+deprecated.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/efrontlearning/!svn/ver/371/community/libraries/deprecated.php
+END
+tree.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/tree.class.php
+END
+graph.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/efrontlearning/!svn/ver/444/community/libraries/graph.class.php
+END
+glossary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/glossary.class.php
+END
+lesson.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/lesson.class.php
+END
+cache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/efrontlearning/!svn/ver/371/community/libraries/cache.class.php
+END
+menu.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/efrontlearning/!svn/ver/589/community/libraries/menu.class.php
+END
+events.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/events.class.php
+END
+search.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/search.class.php
+END
+manifest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/371/community/libraries/manifest.class.php
+END
+project.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/efrontlearning/!svn/ver/639/community/libraries/project.class.php
+END
+configuration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/efrontlearning/!svn/ver/702/community/libraries/configuration.class.php
+END
+content.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/content.class.php
+END
+news.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/news.class.php
+END
+curriculums.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/efrontlearning/!svn/ver/371/community/libraries/curriculums.class.php
+END
+test.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/test.class.php
+END
+direction.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/efrontlearning/!svn/ver/711/community/libraries/direction.class.php
+END
+metadata.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/703/community/libraries/metadata.class.php
+END
+times.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/times.class.php
+END
+filesystem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/efrontlearning/!svn/ver/710/community/libraries/filesystem.class.php
+END

@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/custom_plugins
+END
+function.eF_template_printInnerTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printInnerTable.php
+END
+function.eF_template_printSide.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printSide.php
+END
+function.eF_template_printPNG.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printPNG.php
+END
+function.eF_template_printMessage.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/efrontlearning/!svn/ver/496/community/www/themes/default/templates/custom_plugins/function.eF_template_printMessage.php
+END
+outputfilter.eF_template_replacePng.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_replacePng.php
+END
+function.eF_template_printComments.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/efrontlearning/!svn/ver/371/community/www/themes/default/templates/custom_plugins/function.eF_template_printComments.php
+END
+function.eF_template_printBackButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printBackButton.php
+END
+outputfilter.eF_template_setInnerLinks.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_setInnerLinks.php
+END
+function.eF_template_printUsersList.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printUsersList.php
+END
+function.eF_template_decode_ip.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_decode_ip.php
+END
+outputfilter.eF_template_includeScripts.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_includeScripts.php
+END
+function.eF_template_printDoneQuestions.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printDoneQuestions.php
+END
+function.eF_template_printIconTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printIconTable.php
+END
+function.eF_template_printCloseButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printCloseButton.php
+END
+function.eF_template_printMessageSurvey.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printMessageSurvey.php
+END
+outputfilter.eF_template_loginToMessageLink.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/efrontlearning/!svn/ver/695/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_loginToMessageLink.php
+END
+modifier.eF_formatTitlePath.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/efrontlearning/!svn/ver/686/community/www/themes/default/templates/custom_plugins/modifier.eF_formatTitlePath.php
+END
+outputfilter.gzip.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/outputfilter.gzip.php
+END
+function.eF_template_printPersonalMessages.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printPersonalMessages.php
+END
+function.eF_template_printSurveysList.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printSurveysList.php
+END
+outputfilter.eF_template_setEditorOffset.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/efrontlearning/!svn/ver/610/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_setEditorOffset.php
+END
+outputfilter.eF_template_setStartUnit.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/efrontlearning/!svn/ver/669/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_setStartUnit.php
+END
+outputfilter.eF_template_encryptQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/efrontlearning/!svn/ver/432/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_encryptQuery.php
+END
+function.eF_template_printForumMessages.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printForumMessages.php
+END
+outputfilter.eF_template_formatTimestamp.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/efrontlearning/!svn/ver/495/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_formatTimestamp.php
+END
+insert.customBlock.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/efrontlearning/!svn/ver/123/community/www/themes/default/templates/custom_plugins/insert.customBlock.php
+END
+function.eF_template_html_select_date.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/efrontlearning/!svn/ver/495/community/www/themes/default/templates/custom_plugins/function.eF_template_html_select_date.php
+END
+function.eF_template_printNewContent.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printNewContent.php
+END
+outputfilter.eF_template_parseGrid.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/efrontlearning/!svn/ver/442/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_parseGrid.php
+END
+function.eF_template_printTimestampToTime.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printTimestampToTime.php
+END
+modifier.eF_truncate.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/modifier.eF_truncate.php
+END
+outputfilter.eF_template_formatScore.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/efrontlearning/!svn/ver/68/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_formatScore.php
+END
+function.eF_template_printProjects.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/custom_plugins/function.eF_template_printProjects.php
+END
+function.eF_template_printBlock.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/efrontlearning/!svn/ver/584/community/www/themes/default/templates/custom_plugins/function.eF_template_printBlock.php
+END
+outputfilter.eF_template_applyImageMap.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/efrontlearning/!svn/ver/662/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_applyImageMap.php
+END
+outputfilter.gzip2.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/outputfilter.gzip2.php
+END
+function.eF_template_printSurvey.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printSurvey.php
+END
+function.eF_template_printNavigation.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printNavigation.php
+END
+function.eF_template_printMessageBlock.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/efrontlearning/!svn/ver/646/community/www/themes/default/templates/custom_plugins/function.eF_template_printMessageBlock.php
+END
+function.eF_template_printForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/efrontlearning/!svn/ver/344/community/www/themes/default/templates/custom_plugins/function.eF_template_printForm.php
+END
+function.eF_template_printTimestampToDate.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printTimestampToDate.php
+END
+outputfilter.eF_template_applyThemeToImages.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_applyThemeToImages.php
+END
+function.eF_template_printOnlineUsers.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printOnlineUsers.php
+END
+function.eF_template_printScormControls.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printScormControls.php
+END
+outputfilter.eF_template_formatLogins.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/efrontlearning/!svn/ver/416/community/www/themes/default/templates/custom_plugins/outputfilter.eF_template_formatLogins.php
+END
+function.eF_template_printCalendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/efrontlearning/!svn/ver/639/community/www/themes/default/templates/custom_plugins/function.eF_template_printCalendar.php
+END
+function.eF_template_printPreviousNext.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/efrontlearning/!svn/ver/267/community/www/themes/default/templates/custom_plugins/function.eF_template_printPreviousNext.php
+END
+function.eF_template_printLessonsList.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/efrontlearning/!svn/ver/14/community/www/themes/default/templates/custom_plugins/function.eF_template_printLessonsList.php
+END

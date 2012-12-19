@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/drivers
+END
+adodb-mysqli.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/drivers/adodb-mysqli.inc.php
+END
+adodb-ldap.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/drivers/adodb-ldap.inc.php
+END
+adodb-mysqlpo.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/drivers/adodb-mysqlpo.inc.php
+END
+adodb-mysql.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/drivers/adodb-mysql.inc.php
+END
+adodb-mysqlt.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/105/community/libraries/adodb/drivers/adodb-mysqlt.inc.php
+END

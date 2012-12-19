@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes
+END
+AbstractClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/AbstractClass.php
+END
+JobManagerDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/JobManagerDAO.php
+END
+Job.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/Job.php
+END
+TOFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/TOFactory.php
+END
+DAOFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/DAOFactory.php
+END
+JobApplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/JobApplication.php
+END
+JobDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/JobDAO.php
+END
+pp.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/pp.php
+END
+Settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/Settings.php
+END
+JobApplicationDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/JobApplicationDAO.php
+END
+SettingsDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/SettingsDAO.php
+END
+JobManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/JobManager.php
+END
+AbstractDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/AbstractDAO.php
+END
+TODefault.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/classes/TODefault.php
+END

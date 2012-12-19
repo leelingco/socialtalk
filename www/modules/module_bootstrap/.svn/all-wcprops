@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_bootstrap
+END
+module.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/efrontlearning/!svn/ver/710/community/www/modules/module_bootstrap/module.tpl
+END
+module.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/efrontlearning/!svn/ver/710/community/www/modules/module_bootstrap/module.xml
+END
+module_bootstrap.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_bootstrap/module_bootstrap.class.php
+END
+lang-english.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/711/community/www/modules/module_bootstrap/lang-english.php
+END

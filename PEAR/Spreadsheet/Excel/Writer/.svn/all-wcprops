@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/efrontlearning/!svn/ver/14/community/PEAR/Spreadsheet/Excel/Writer
+END
+Worksheet.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/14/community/PEAR/Spreadsheet/Excel/Writer/Worksheet.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/efrontlearning/!svn/ver/14/community/PEAR/Spreadsheet/Excel/Writer/Parser.php
+END
+Workbook.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/efrontlearning/!svn/ver/14/community/PEAR/Spreadsheet/Excel/Writer/Workbook.php
+END
+Workbook_Default.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/14/community/PEAR/Spreadsheet/Excel/Writer/Workbook_Default.php
+END
+BIFFwriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/14/community/PEAR/Spreadsheet/Excel/Writer/BIFFwriter.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/14/community/PEAR/Spreadsheet/Excel/Writer/Validator.php
+END
+Format.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/efrontlearning/!svn/ver/14/community/PEAR/Spreadsheet/Excel/Writer/Format.php
+END

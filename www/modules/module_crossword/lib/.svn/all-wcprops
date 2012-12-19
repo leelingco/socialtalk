@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/efrontlearning/!svn/ver/562/community/www/modules/module_crossword/lib
+END
+mysql.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/369/community/www/modules/module_crossword/lib/mysql.class.php
+END
+Snoopy.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/542/community/www/modules/module_crossword/lib/Snoopy.class.php
+END
+php_crossword_word.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/efrontlearning/!svn/ver/541/community/www/modules/module_crossword/lib/php_crossword_word.class.php
+END
+php_crossword_client.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/efrontlearning/!svn/ver/541/community/www/modules/module_crossword/lib/php_crossword_client.class.php
+END
+php_crossword_cell.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/efrontlearning/!svn/ver/369/community/www/modules/module_crossword/lib/php_crossword_cell.class.php
+END
+php_crossword.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/efrontlearning/!svn/ver/541/community/www/modules/module_crossword/lib/php_crossword.class.php
+END
+xml.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/efrontlearning/!svn/ver/517/community/www/modules/module_crossword/lib/xml.php
+END
+utility.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/517/community/www/modules/module_crossword/lib/utility.php
+END
+php_crossword_grid.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/efrontlearning/!svn/ver/562/community/www/modules/module_crossword/lib/php_crossword_grid.class.php
+END

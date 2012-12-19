@@ -1,0 +1,191 @@
+10
+
+dir
+711
+https://efrontlearning.svn.sourceforge.net/svnroot/efrontlearning/community/www/modules
+https://efrontlearning.svn.sourceforge.net/svnroot/efrontlearning
+
+
+
+2012-12-18T09:45:18.199291Z
+711
+venakis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b0e902ce-d33f-0410-b758-e8627170a121
+
+module_leaflet
+dir
+
+module_bootstrap
+dir
+
+module_course_reports
+dir
+
+module_links
+dir
+
+module_export_unit
+dir
+
+module_demo
+dir
+
+module_bbb
+dir
+
+module_crossword
+dir
+
+module_questions_from_csv
+dir
+
+module_content_reports
+dir
+
+module_training_reports
+dir
+
+module_billboard
+dir
+
+module_youtube
+dir
+
+module_idle_users
+dir
+
+module_gift_aiken
+dir
+
+module_outlook_invitation
+dir
+
+module_fuze_meetings
+dir
+
+module_certificates
+dir
+
+module_blogs
+dir
+
+.htaccess
+file
+
+
+
+
+2012-12-19T06:48:57.531620Z
+99d22d1d8cc37a6376ff8d7b4023a894
+2010-01-12T15:42:09.542206Z
+14
+venakis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16
+
+module_complete_test
+dir
+
+module_rss
+dir
+
+module_journal
+dir
+
+module_flashcards
+dir
+
+module_chat
+dir
+
+module_lessonstats
+dir
+
+module_thumbnail
+dir
+
+module_jobs_manager
+dir
+
+module_banners
+dir
+
+module_shared_files
+dir
+
+module_lessonsidebar
+dir
+
+module_gradebook
+dir
+
+module_quote
+dir
+
+module_translate
+dir
+
+module_workbook
+dir
+
+module_empty
+dir
+
+module_administrator_tools
+dir
+
+module_quick_mails
+dir
+
+module_branchthemes
+dir
+
+module_dimdim
+dir
+
+module_wiki
+dir
+
+module_textme
+dir
+
+module_faq
+dir
+
+module_security
+dir
+

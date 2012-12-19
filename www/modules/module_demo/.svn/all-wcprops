@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/efrontlearning/!svn/ver/710/community/www/modules/module_demo
+END
+module_demo_landing_page.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/efrontlearning/!svn/ver/457/community/www/modules/module_demo/module_demo_landing_page.tpl
+END
+module_demo_catalog.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/457/community/www/modules/module_demo/module_demo_catalog.tpl
+END
+module_demo_page.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/efrontlearning/!svn/ver/687/community/www/modules/module_demo/module_demo_page.tpl
+END
+module_demo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/710/community/www/modules/module_demo/module_demo.class.php
+END
+module_demo_page_finish.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_demo/module_demo_page_finish.tpl
+END
+module.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/efrontlearning/!svn/ver/442/community/www/modules/module_demo/module.xml
+END
+module_demo_content_side.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/efrontlearning/!svn/ver/457/community/www/modules/module_demo/module_demo_content_side.tpl
+END
+module_demo_rules_tab.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/442/community/www/modules/module_demo/module_demo_rules_tab.tpl
+END
+module_demo_css.css
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/efrontlearning/!svn/ver/457/community/www/modules/module_demo/module_demo_css.css
+END
+module_demo_branch_tab.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/442/community/www/modules/module_demo/module_demo_branch_tab.tpl
+END
+module_demo_dashboard.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/457/community/www/modules/module_demo/module_demo_dashboard.tpl
+END
+lang-english.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/efrontlearning/!svn/ver/687/community/www/modules/module_demo/lang-english.php
+END
+module_demo.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/efrontlearning/!svn/ver/457/community/www/modules/module_demo/module_demo.js
+END
+module_demo_cpanelpage.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/457/community/www/modules/module_demo/module_demo_cpanelpage.tpl
+END
+module_demo_lessonpage.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/457/community/www/modules/module_demo/module_demo_lessonpage.tpl
+END
+module_demo_course_settings_tab_page.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/efrontlearning/!svn/ver/442/community/www/modules/module_demo/module_demo_course_settings_tab_page.tpl
+END
+module_demo_lesson_progress_fieldset.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/efrontlearning/!svn/ver/442/community/www/modules/module_demo/module_demo_lesson_progress_fieldset.tpl
+END

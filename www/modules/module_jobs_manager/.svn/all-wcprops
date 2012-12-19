@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/efrontlearning/!svn/ver/595/community/www/modules/module_jobs_manager
+END
+lang-brazilian.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-brazilian.php
+END
+lang-hungarian.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-hungarian.php
+END
+smarty.job_list.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/smarty.job_list.tpl
+END
+lang-korean.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-korean.php
+END
+module.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/efrontlearning/!svn/ver/499/community/www/modules/module_jobs_manager/module.xml
+END
+lang-arabic.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-arabic.php
+END
+lang-ukrainian.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-ukrainian.php
+END
+module_jobs_manager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/efrontlearning/!svn/ver/594/community/www/modules/module_jobs_manager/module_jobs_manager.class.php
+END
+lang-chinese_simplified.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-chinese_simplified.php
+END
+lang-serbian.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-serbian.php
+END
+lang-russian.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-russian.php
+END
+smarty.tabbed_generic.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/smarty.tabbed_generic.tpl
+END
+lang-thai.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-thai.php
+END
+jobs_manager_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/jobs_manager_footer.php
+END
+smarty.job_edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/smarty.job_edit.tpl
+END
+lang-indonesian.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-indonesian.php
+END
+smarty.app_show.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/595/community/www/modules/module_jobs_manager/smarty.app_show.tpl
+END
+lang-turkish.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-turkish.php
+END
+smarty.job_new.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/384/community/www/modules/module_jobs_manager/smarty.job_new.tpl
+END
+lang-hindi.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-hindi.php
+END
+lang-czech.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-czech.php
+END
+lang-greek.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-greek.php
+END
+lang-finnish.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-finnish.php
+END
+lang-latvian.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-latvian.php
+END
+lang-slovenian.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-slovenian.php
+END
+lang-vietnamese.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-vietnamese.php
+END
+lang-catalan.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-catalan.php
+END
+lang-romanian.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-romanian.php
+END
+lang-danish.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-danish.php
+END
+lang-swedish.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-swedish.php
+END
+lang-galician.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-galician.php
+END
+lang-filipino.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-filipino.php
+END
+class_includer.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/class_includer.php
+END
+lang-hebrew.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-hebrew.php
+END
+smarty.app_tab.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/499/community/www/modules/module_jobs_manager/smarty.app_tab.tpl
+END
+jobs.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/jobs.php
+END
+jobs_manager_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/jobs_manager_header.php
+END
+lang-italian.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-italian.php
+END
+smarty.job_show.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/499/community/www/modules/module_jobs_manager/smarty.job_show.tpl
+END
+lang-japanese.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-japanese.php
+END
+lang-english.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-english.php
+END
+lang-norwegian.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-norwegian.php
+END
+lang-lithuanian.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-lithuanian.php
+END
+smarty.settings_tab.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/384/community/www/modules/module_jobs_manager/smarty.settings_tab.tpl
+END
+lang-polish.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-polish.php
+END
+lang-slovak.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-slovak.php
+END
+lang-croatian.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-croatian.php
+END
+lang-persian.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-persian.php
+END
+lang-portuguese.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-portuguese.php
+END
+lang-bulgarian.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-bulgarian.php
+END
+lang-french.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-french.php
+END
+lang-albanian.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-albanian.php
+END
+lang-spanish.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-spanish.php
+END
+lang-latin_american.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-latin_american.php
+END
+lang-dutch.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-dutch.php
+END
+smarty.job_tab.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/efrontlearning/!svn/ver/371/community/www/modules/module_jobs_manager/smarty.job_tab.tpl
+END
+lang-chinese_traditional.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-chinese_traditional.php
+END
+lang-german.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/efrontlearning/!svn/ver/444/community/www/modules/module_jobs_manager/lang-german.php
+END

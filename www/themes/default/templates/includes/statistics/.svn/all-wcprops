@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/efrontlearning/!svn/ver/711/community/www/themes/default/templates/includes/statistics
+END
+advanced_user_reports.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/efrontlearning/!svn/ver/658/community/www/themes/default/templates/includes/statistics/advanced_user_reports.tpl
+END
+courses_stats.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/efrontlearning/!svn/ver/711/community/www/themes/default/templates/includes/statistics/courses_stats.tpl
+END
+system_stats.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/efrontlearning/!svn/ver/680/community/www/themes/default/templates/includes/statistics/system_stats.tpl
+END
+lessons_stats.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/efrontlearning/!svn/ver/711/community/www/themes/default/templates/includes/statistics/lessons_stats.tpl
+END
+stats_filters.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/includes/statistics/stats_filters.tpl
+END
+skills_stats.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/efrontlearning/!svn/ver/670/community/www/themes/default/templates/includes/statistics/skills_stats.tpl
+END
+users_stats.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/efrontlearning/!svn/ver/629/community/www/themes/default/templates/includes/statistics/users_stats.tpl
+END
+certificate_stats.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/efrontlearning/!svn/ver/710/community/www/themes/default/templates/includes/statistics/certificate_stats.tpl
+END

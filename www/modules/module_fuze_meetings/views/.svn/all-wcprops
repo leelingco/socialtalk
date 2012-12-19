@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/efrontlearning/!svn/ver/595/community/www/modules/module_fuze_meetings/views
+END
+smarty.professor.mod_fm_cpanel.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/efrontlearning/!svn/ver/438/community/www/modules/module_fuze_meetings/views/smarty.professor.mod_fm_cpanel.tpl
+END
+smarty.professor.mod_fm_all_meetings.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/efrontlearning/!svn/ver/438/community/www/modules/module_fuze_meetings/views/smarty.professor.mod_fm_all_meetings.tpl
+END
+smarty.professor.mod_fm_edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/efrontlearning/!svn/ver/438/community/www/modules/module_fuze_meetings/views/smarty.professor.mod_fm_edit.tpl
+END
+smarty.professor.mod_fm_cpanel_register.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/efrontlearning/!svn/ver/410/community/www/modules/module_fuze_meetings/views/smarty.professor.mod_fm_cpanel_register.tpl
+END
+smarty.student.mod_fm_cpanel.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/efrontlearning/!svn/ver/416/community/www/modules/module_fuze_meetings/views/smarty.student.mod_fm_cpanel.tpl
+END
+smarty.admin.mod_fm_cpanel.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/efrontlearning/!svn/ver/595/community/www/modules/module_fuze_meetings/views/smarty.admin.mod_fm_cpanel.tpl
+END
+smarty.admin.mod_fm_cpanel_register.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/efrontlearning/!svn/ver/422/community/www/modules/module_fuze_meetings/views/smarty.admin.mod_fm_cpanel_register.tpl
+END
+smarty.professor.mod_fm_cpanel_suspended.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/efrontlearning/!svn/ver/398/community/www/modules/module_fuze_meetings/views/smarty.professor.mod_fm_cpanel_suspended.tpl
+END
+smarty.professor.mod_fm_schedule.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/efrontlearning/!svn/ver/438/community/www/modules/module_fuze_meetings/views/smarty.professor.mod_fm_schedule.tpl
+END
+smarty.professor.mod_fm_host.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/efrontlearning/!svn/ver/438/community/www/modules/module_fuze_meetings/views/smarty.professor.mod_fm_host.tpl
+END
+smarty.student.mod_fm_cpanel_no_meetings.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/efrontlearning/!svn/ver/398/community/www/modules/module_fuze_meetings/views/smarty.student.mod_fm_cpanel_no_meetings.tpl
+END
+smarty.professor.launcher.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/efrontlearning/!svn/ver/416/community/www/modules/module_fuze_meetings/views/smarty.professor.launcher.tpl
+END
