@@ -1,20 +1,51 @@
 function twitterConnect(){
-	window.open('https://api.twitter.com/oauth/authenticate?oauth_callback=http%3A%2F%2Flocalhost%2Fredirect.php&oauth_token='+TwitterAccessToken,'twitter connect','width=800,height=300');
+	window.open('/socailtalk/TokLive/web/php/twitterOauth.php','twitter connect','width=800,height=300');
 }
-function twitterConnectSuccess(token){
-	$('#twitter-button').replaceWith($('<span>signed in</span>'));
-	TwitterOAuthToken=token;
-	$.cookie('TwitterOAuthToken',TwitterOAuthToken);
+function twitterConnectSuccess(){
+	$.ajax({
+		url:'/socailtalk/TokLive/web/php/twitter.php',
+		type:'POST',
+		data:'command=friends',
+		dataType:'json',
+		success:function(d){
+			var users=d.users;
+			var con=$('<ul></ul>').appendTo($('#twitter-section').html(''));
+			for(var i in users){
+				var u=users[i];
+				var li=$('<li user_id="'+u.id+'"><img class="twitter-profile" src="'+u.profile_background_image_url+'"><div class="twitter-metas"><span>'+u.name+'</span><br/><span>'+u.location+'</span></div></li>').appendTo(con);
+				li.click(function(){
+					var me=$(this);
+					con.find('.active').removeClass('active');
+					me.addClass('active');
+					$('#twitter-invite-to').html(' to '+me.find('span:first').html());
+				})
+			}
+		}
+	})
+}
+function sendTwitterInvite(){
+	var text=$('#share-url').val();
+	var user_id=$('#twitter-section ul li.active').attr('user_id');
+	$.ajax({
+		url:'/socailtalk/TokLive/web/php/twitter.php',
+		type:'POST',
+		data:'command=message&text='+escape(text)+'&user_id='+user_id,
+		dataType:'json',
+		success:function(d){
+			console.log(d);
+		}
+	})
 }
 function createSession(){
 	$.ajax({
-		url:'/socailtalk/TokLive/web/php/getSession.php',
+		url:'/socailtalk/TokLive/web/php/GetSession.php',
 		success:function(d){
-			console.log(d);
 			var result=JSON.parse(d).result;
 			TokLiveSession=result.sessionId;
 			TokLiveToken=result.token;
-			$('#create-chartroom').html('you are in chartroom');
+			$('#create-chartroom').html('leave chartroom').removeAttr('onclick').unbind('click').click(function(){
+				endVideo();
+			});
 			loadVideoWindow();
 		}
 	})
@@ -23,7 +54,7 @@ function loadVideoWindow(){
 	var apiKey = '22095912';
 	var session = TB.initSession(TokLiveSession);
 	setTimeout(function(){
-		$('#share-url').val('http://www.cambridgesolutions.net/socailtalk/TokLive/web/index.php?sessionId='+TokLiveSession);
+		$('#share-url').val('hey, join me at http://www.cambridgesolutions.net/socailtalk/TokLive/web/index.php?sessionId='+TokLiveSession);
 	},5000);
 	session.addEventListener('sessionConnected', sessionConnectedHandler);
 	session.addEventListener('streamCreated', streamCreatedHandler);		
@@ -56,6 +87,9 @@ function loadVideoWindow(){
 
 function endVideo(){
 	$('.right>div').html("<img id='video-window' src='http://placehold.it/600x450&text=Video'>");
+	$('#create-chartroom').html('create a chartroom').unbind('click').click(function(){
+		createSession();
+	});
 }
 $.cookie = function(key, value, options) {
 

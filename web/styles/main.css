@@ -93,10 +93,47 @@ input{
 	width:350px;
 }
 .steps img{
-	vertical-align:middle;
+	margin-right:5px;
+}
+.step-image{
 	width:15px;
 	height:15px;
-	margin-right:5px;
+	vertical-align:middle;
+}
+#twitter-section ul{
+	max-height:350px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+#share-url{
+	width:250px;
+	height:40px;
+	vertical-align:top;
+}
+#twitter-section ul li{
+	font-weight:bold;
+	cursor:pointer;
+	font-size:12px;
+}
+#send-invite{
+	margin-left:10px;
+	cursor:pointer;
+}
+#twitter-section ul li:hover{
+	background-color:#A1D3FF;
+}
+#twitter-section ul li.active{
+	background-color:#A1D3FF;
+}
+
+.twitter-metas{
+	display:inline-block;
+}
+.twitter-profile{
+	width:45px;
+	height:45px;
+	vertical-align:top;
+	display:inline-block;
 }
 .steps li{
 	margin-bottom:5px;
@@ -107,10 +144,15 @@ input{
 .button{
 	background-color:#00AEC8;
 	color:#fff;
-	padding:0 5px;
+	padding:0 5px 2px 5px;
 }
 .steps a{
 	
+}
+button{
+	padding: 5px;
+	font-size: 12px;
+	font-weight: bold;
 }
 .extra-video{
 	width:300px;
