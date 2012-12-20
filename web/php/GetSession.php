@@ -20,6 +20,7 @@
 		$sessionId = $apiObj->create_session($_SERVER["REMOTE_ADDR"]);
 		$token = $apiObj->generateToken($sessionId);
 	}
+	echo '{"result":{"sessionId":"'.$sessionId.'","token":"'.$token.'"}}';
 	// need to use Zend library because php is ver 5.1.6
 ?>
 
