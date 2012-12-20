@@ -151,7 +151,7 @@ class OAuthRequester extends OAuthRequestSigner
 			$params['xoauth_token_ttl'] = intval($options['token_ttl']);
 		}
 
-		$store	= OAuthStore::instance();
+		$store   = OAuthStore::instance('MySQL', $options);
 		$r		= $store->getServer($consumer_key, $usr_id);
 		$uri 	= $r['request_token_uri'];
 
@@ -223,7 +223,7 @@ class OAuthRequester extends OAuthRequestSigner
 	{
 		OAuthRequestLogger::start();
 				
-		$store	    = OAuthStore::instance();
+		$store	    = OAuthStore::instance('MySQL', $options);
 		$r		    = $store->getServerTokenSecrets($consumer_key, $token, 'request', $usr_id);
 		$uri 	    = $r['access_token_uri'];
 		$token_name	= $r['token_name'];
