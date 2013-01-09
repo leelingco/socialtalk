@@ -1,9 +1,9 @@
 function twitterConnect(){
-	window.open('/socailtalk/TokLive/web/php/twitterOauth.php','twitter connect','width=800,height=300');
+	window.open('/socialtalk/web/php/twitterOauth.php','twitter connect','width=800,height=300');
 }
 function twitterConnectSuccess(){
 	$.ajax({
-		url:'/socailtalk/TokLive/web/php/twitter.php',
+		url:'/socialtalk/web/php/twitter.php',
 		type:'POST',
 		data:'command=friends',
 		dataType:'json',
@@ -27,7 +27,7 @@ function sendTwitterInvite(){
 	var text=$('#share-url').val();
 	var user_id=$('#twitter-section ul li.active').attr('user_id');
 	$.ajax({
-		url:'/socailtalk/TokLive/web/php/twitter.php',
+		url:'/socialtalk/web/php/twitter.php',
 		type:'POST',
 		data:'command=message&text='+escape(text)+'&user_id='+user_id,
 		dataType:'json',
@@ -38,7 +38,7 @@ function sendTwitterInvite(){
 }
 function createSession(){
 	$.ajax({
-		url:'/socailtalk/TokLive/web/php/GetSession.php',
+		url:'/socialtalk/web/php/GetSession.php',
 		success:function(d){
 			var result=JSON.parse(d).result;
 			TokLiveSession=result.sessionId;

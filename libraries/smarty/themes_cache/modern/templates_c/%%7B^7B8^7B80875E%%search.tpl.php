@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-18 23:04:12
+<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
          compiled from includes/blocks/search.tpl */ ?>
     <form action = "<?php echo $_SERVER['PHP_SELF']; ?>
 ?fct=searchResults" method = "post">

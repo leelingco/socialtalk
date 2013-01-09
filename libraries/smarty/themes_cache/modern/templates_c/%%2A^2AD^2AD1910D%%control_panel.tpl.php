@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-18 23:04:32
+<?php /* Smarty version 2.6.26, created on 2012-12-21 02:13:41
          compiled from includes/control_panel.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'includes/control_panel.tpl', 12, false),array('modifier', 'sizeof', 'includes/control_panel.tpl', 29, false),array('modifier', 'eF_truncate', 'includes/control_panel.tpl', 162, false),array('modifier', 'replace', 'includes/control_panel.tpl', 251, false),array('function', 'counter', 'includes/control_panel.tpl', 24, false),array('function', 'eF_template_printBlock', 'includes/control_panel.tpl', 34, false),array('function', 'eF_template_printCalendar', 'includes/control_panel.tpl', 64, false),array('function', 'eF_template_printProjects', 'includes/control_panel.tpl', 106, false),array('function', 'eF_template_printForumMessages', 'includes/control_panel.tpl', 119, false),array('function', 'eF_template_printPersonalMessages', 'includes/control_panel.tpl', 132, false),array('function', 'eF_template_printComments', 'includes/control_panel.tpl', 145, false),array('function', 'cycle', 'includes/control_panel.tpl', 188, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'includes/control_panel.tpl', 12, false),array('modifier', 'sizeof', 'includes/control_panel.tpl', 28, false),array('modifier', 'eF_truncate', 'includes/control_panel.tpl', 161, false),array('modifier', 'replace', 'includes/control_panel.tpl', 250, false),array('function', 'counter', 'includes/control_panel.tpl', 23, false),array('function', 'eF_template_printBlock', 'includes/control_panel.tpl', 33, false),array('function', 'eF_template_printCalendar', 'includes/control_panel.tpl', 63, false),array('function', 'eF_template_printProjects', 'includes/control_panel.tpl', 105, false),array('function', 'eF_template_printForumMessages', 'includes/control_panel.tpl', 118, false),array('function', 'eF_template_printPersonalMessages', 'includes/control_panel.tpl', 131, false),array('function', 'eF_template_printComments', 'includes/control_panel.tpl', 144, false),array('function', 'cycle', 'includes/control_panel.tpl', 187, false),)), $this); ?>
 <?php if ($this->_tpl_vars['T_OP'] == 'search'): ?>
         <?php ob_start(); ?>
   <tr><td class = "moduleCell">
@@ -25,7 +25,6 @@ unset($_smarty_tpl_vars);
     <?php $this->_smarty_vars['capture']['importedModule'] = ob_get_contents(); ob_end_clean(); ?>
 
 <?php else: ?>
-
   <?php if ($this->_tpl_vars['T_INACTIVE_USERS']): ?>
   <?php ob_start(); ?>
       <tr><td class = "moduleCell">
@@ -538,6 +537,7 @@ if ($this->_foreach['positions_first']['total'] > 0):
                          </table>
                      </li>
  <?php endif; ?>
+
  <?php if (! in_array ( 'moduleNewsList' , $this->_tpl_vars['T_POSITIONS'] ) && $this->_smarty_vars['capture']['moduleNewsList']): ?>
                      <li id="secondlist_moduleNewsList">
                          <table class = "singleColumnData">

@@ -419,6 +419,7 @@ try {
             if (!isset($currentUser -> coreAccess['modules']) || $currentUser -> coreAccess['modules'] != 'hidden') {
                 $controlPanelOptions[] = array('text' => _MODULES, 'image' => "32x32/addons.png", 'href' => "administrator.php?ctg=modules", 'group' => 1);
             }
+		
         }
         //Set control panel elements for professor
         else if ($_professor_) {
@@ -487,6 +488,9 @@ try {
             } else {
                 $controlPanelOptions = array();
             }
+			//add chatroom anyways for students
+			$controlPanelOptions[] = array('text' => 'Chatroom', 'image' => "32x32/forum.png", 'href' => basename($_SERVER['PHP_SELF'])."?ctg=chatroom");
+
         }
         ///Create control panel sidelinks and innertable
         $innertable_modules = array();

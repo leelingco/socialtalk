@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-18 23:04:12
+<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
          compiled from includes/blocks/news.tpl */ ?>
 <?php echo ''; ?><?php $_from = $this->_tpl_vars['T_NEWS']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['news_list'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['news_list']['total'] > 0):

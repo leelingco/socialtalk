@@ -250,6 +250,7 @@ if ($redirectPage == "user_dashboard" && $user_type != "administrator") {
 }
 $smarty->assign("T_HOME_LINK", $location);
 ///MODULE1: Import
+
 try {
  $loadedModules = $currentUser -> getModules();
  $module_css_array = array();
@@ -287,6 +288,7 @@ try {
 } catch (Exception $e) {
  handleNormalFlowExceptions($e);
 }
+
 /*Ajax call to enter group and get group lessons */
 if (isset($_GET['ajax']) && isset($_GET['group_key'])) {
  try {
@@ -330,6 +332,7 @@ if (isset($_GET['bookmarks']) && $GLOBALS['configuration']['disable_bookmarks'] 
     }
     exit;
 }
+
 /*Added Session variable for search results*/
 $_SESSION['referer'] = $_SERVER['REQUEST_URI'];
 //$_SESSION['last_action_timestamp'] = time();		//Keep the last time something happened to the session
@@ -364,6 +367,7 @@ if ((isset($_SESSION['s_lesson_user_type']) && $_SESSION['s_lesson_user_type'] =
 $smarty -> assign("_student_", $_student_);
 $smarty -> assign("_professor_", $_professor_);
 $smarty -> assign("_admin_", $_admin_);
+
 try {
  if ($ctg == 'control_panel') {
   $_SESSION['s_lessons_ID'] OR eF_redirect(basename($_SERVER['PHP_SELF']));
@@ -431,6 +435,10 @@ try {
  elseif ($ctg == 'forum') {
      /***/
      require_once("includes/forum.php");
+ }
+ elseif ($ctg == 'chatroom') {
+     /***/
+     require_once("includes/chatroom.php");
  }
  elseif ($ctg == 'messages') {
      /***/
@@ -552,6 +560,7 @@ try {
     }
 
 */
+
  if (detectBrowser() == 'mobile') {
   $load_editor = false;
  }
@@ -623,6 +632,7 @@ if (isset($currentLesson)) {
   $smarty -> assign("T_CURRENT_COURSE_ID", $currentCourse->course['id']);
  }
 }
+
 $smarty -> load_filter('output', 'eF_template_formatTimestamp');
 $smarty -> load_filter('output', 'eF_template_formatLogins');
 $smarty -> load_filter('output', 'eF_template_setInnerLinks');
@@ -632,6 +642,7 @@ $smarty -> display('student.tpl');
 $benchmark -> set('smarty');
 $benchmark -> stop();
 $output = $benchmark -> display();
+
 if (G_DEBUG) {
  echo $output;
 }

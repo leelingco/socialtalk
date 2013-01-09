@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-18 23:04:12
+<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
          compiled from includes/footer_code.tpl */ ?>
 <?php if ($this->_tpl_vars['T_THEME_SETTINGS']->options['show_footer'] && $this->_tpl_vars['T_CONFIGURATION']['show_footer']): ?>
  <?php if ($this->_tpl_vars['T_CONFIGURATION']['additional_footer']): ?>

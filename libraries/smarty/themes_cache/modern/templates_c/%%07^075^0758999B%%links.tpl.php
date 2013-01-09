@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-18 23:04:12
+<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
          compiled from includes/blocks/links.tpl */ ?>
 <?php $_from = $this->_tpl_vars['T_CUSTOM_BLOCKS']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['custom_block_links_list'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['custom_block_links_list']['total'] > 0):

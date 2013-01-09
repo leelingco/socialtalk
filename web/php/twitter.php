@@ -3,6 +3,7 @@ include_once "oauth-php/library/OAuthStore.php";
 include_once "oauth-php/library/OAuthRequester.php";
 $command=$_POST['command'];
 $user_id=1;
+
 switch ($command){
 	case 'friends':
 	$req = new OAuthRequester( 'https://api.twitter.com/1.1/friends/list.json', 'GET');

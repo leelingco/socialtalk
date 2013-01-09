@@ -14,7 +14,6 @@
     {/capture}
 
 {else}
-
  {*moduleNewUsersApplications: The list of inactive users, waiting for activation*}
  {if $T_INACTIVE_USERS}
   {capture name = "moduleNewUsersApplications"}
@@ -322,6 +321,7 @@
                          </table>
                      </li>
  {/if}
+
  {if !in_array('moduleNewsList', $T_POSITIONS) && $smarty.capture.moduleNewsList}
                      <li id="secondlist_moduleNewsList">
                          <table class = "singleColumnData">
