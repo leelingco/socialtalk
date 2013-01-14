@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="yBr-rn-jb3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="iosbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="1fO-UQ-giA">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="324" id="pYb-uD-oRg"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KI8-Rn-IRS">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sign in with twitter">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="diplayTwitterFriend:" destination="2" eventType="touchDown" id="Dwl-9C-ZTq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXs-oK-Pal">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sign in with facebook">
+                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchToNewView:" destination="2" eventType="touchDown" id="ehG-na-Mti"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SocialTalk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpN-XP-1Wr">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="D93-bJ-zCz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="0.24355611313868614" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="share moments with friends" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcu-VT-7ip">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Oad-qg-hX5"/>
+                                    <constraint firstAttribute="width" constant="161" id="iQZ-gq-E0N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQg-DU-xtA">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gcu-VT-7ip" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="EAe-3U-Ujs"/>
+                            <constraint firstItem="kXs-oK-Pal" firstAttribute="top" secondItem="3" secondAttribute="top" constant="218" id="GDQ-cj-1yo"/>
+                            <constraint firstItem="gcu-VT-7ip" firstAttribute="top" secondItem="3" secondAttribute="top" constant="97" id="MDN-bB-3qj"/>
+                            <constraint firstItem="1fO-UQ-giA" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="Nc4-HZ-ejV"/>
+                            <constraint firstItem="dpN-XP-1Wr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="58" id="PHM-I7-ZuI"/>
+                            <constraint firstItem="gcu-VT-7ip" firstAttribute="centerX" secondItem="dpN-XP-1Wr" secondAttribute="centerX" type="default" id="UWt-G9-689"/>
+                            <constraint firstItem="kXs-oK-Pal" firstAttribute="centerX" secondItem="KI8-Rn-IRS" secondAttribute="centerX" type="default" id="ZJ4-Nu-soe"/>
+                            <constraint firstItem="1fO-UQ-giA" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="kLM-aW-lmf"/>
+                            <constraint firstItem="gcu-VT-7ip" firstAttribute="centerX" secondItem="KI8-Rn-IRS" secondAttribute="centerX" type="default" id="r5s-5h-See"/>
+                            <constraint firstItem="fQg-DU-xtA" firstAttribute="centerX" secondItem="1fO-UQ-giA" secondAttribute="centerX" type="default" id="ul5-Mh-YfQ"/>
+                            <constraint firstItem="KI8-Rn-IRS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="148" id="wvS-lR-gee"/>
+                            <constraint firstItem="1fO-UQ-giA" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="y0T-xU-RFw"/>
+                            <constraint firstAttribute="bottom" secondItem="fQg-DU-xtA" secondAttribute="bottom" constant="135" id="ypH-cQ-FfS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XYk-UM-k7W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-272" y="-140"/>
+        </scene>
+        <!--Friend List View Controller-->
+        <scene sceneID="3K4-JZ-6En">
+            <objects>
+                <tableViewController id="mgS-Wj-ipu" customClass="FriendListViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ud7-dB-9hT">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="cQD-Uk-uwP">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mgS-Wj-ipu" id="tCr-D2-5Md"/>
+                            <outlet property="delegate" destination="mgS-Wj-ipu" id="YqW-Q2-UuR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="buG-J6-pvz"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lww-0g-Dpw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="443" y="-140"/>
+        </scene>
+        <!--Open Tok View Controller-->
+        <scene sceneID="mCV-ml-Dyc">
+            <objects>
+                <viewController id="etl-c7-3mu" customClass="OpenTokViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c5b-yz-E7x">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hgq-zv-Myw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860" y="-140"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hFe-mE-d45">
+            <objects>
+                <navigationController id="yBr-rn-jb3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mvW-c1-O2b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="lQF-4X-iwW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5aw-cQ-Abo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-710" y="-126"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iosbg.png" width="198" height="198"/>
+    </resources>
+    <classes>
+        <class className="FriendListViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FriendListViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="OpenTokViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OpenTokViewController.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="diplayTwitterFriend:"/>
+                <relationship kind="action" name="switchToNewView:"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A028EC8D169C0D7200F1C137 /* opentok.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A028EC8C169C0D7200F1C137 /* opentok.bundle */; };
+		A028EC90169C100E00F1C137 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC8F169C100E00F1C137 /* CoreTelephony.framework */; };
+		A028EC92169C102E00F1C137 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC91169C102E00F1C137 /* MobileCoreServices.framework */; };
+		A028EC94169C103800F1C137 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC93169C103800F1C137 /* CFNetwork.framework */; };
+		A028EC96169C104100F1C137 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC95169C104100F1C137 /* SystemConfiguration.framework */; };
+		A028EC98169C105600F1C137 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC97169C105600F1C137 /* CoreMedia.framework */; };
+		A028EC9A169C106100F1C137 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC99169C106100F1C137 /* Security.framework */; };
+		A028EC9C169C106A00F1C137 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC9B169C106A00F1C137 /* AudioToolbox.framework */; };
+		A028EC9E169C107200F1C137 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC9D169C107200F1C137 /* CoreAudio.framework */; };
+		A028ECA0169C107800F1C137 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028EC9F169C107800F1C137 /* CoreVideo.framework */; };
+		A028ECA2169C107E00F1C137 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028ECA1169C107E00F1C137 /* OpenGLES.framework */; };
+		A028ECA4169C108600F1C137 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028ECA3169C108600F1C137 /* QuartzCore.framework */; };
+		A028ECA6169C108C00F1C137 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028ECA5169C108C00F1C137 /* AVFoundation.framework */; };
+		A028ECA8169C109300F1C137 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A028ECA7169C109300F1C137 /* libz.dylib */; };
+		A028ECAA169C109C00F1C137 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A028ECA9169C109C00F1C137 /* libstdc++.dylib */; };
+		A028EDF7169EBE5C00F1C137 /* JHCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A028EDF6169EBE5C00F1C137 /* JHCustomSegue.m */; };
+		A028EDFA169EC5BA00F1C137 /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A028EDF9169EC5BA00F1C137 /* FriendListViewController.m */; };
+		A0C323D0169FF8E800E67645 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C323CF169FF8E800E67645 /* Social.framework */; };
+		A0C323D716A230E800E67645 /* OpenTokViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C323D616A230E800E67645 /* OpenTokViewController.m */; };
+		A0D6FD29169A88EC0021A099 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D6FD28169A88EC0021A099 /* UIKit.framework */; };
+		A0D6FD2B169A88EC0021A099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D6FD2A169A88EC0021A099 /* Foundation.framework */; };
+		A0D6FD2D169A88EC0021A099 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D6FD2C169A88EC0021A099 /* CoreGraphics.framework */; };
+		A0D6FD33169A88EC0021A099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD31169A88EC0021A099 /* InfoPlist.strings */; };
+		A0D6FD35169A88EC0021A099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D6FD34169A88EC0021A099 /* main.m */; };
+		A0D6FD39169A88EC0021A099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D6FD38169A88EC0021A099 /* AppDelegate.m */; };
+		A0D6FD3B169A88EC0021A099 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD3A169A88EC0021A099 /* Default.png */; };
+		A0D6FD3D169A88EC0021A099 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD3C169A88EC0021A099 /* Default@2x.png */; };
+		A0D6FD3F169A88EC0021A099 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD3E169A88EC0021A099 /* Default-568h@2x.png */; };
+		A0D6FD42169A88EC0021A099 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD40169A88EC0021A099 /* MainStoryboard_iPhone.storyboard */; };
+		A0D6FD45169A88EC0021A099 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD43169A88EC0021A099 /* MainStoryboard_iPad.storyboard */; };
+		A0D6FD48169A88EC0021A099 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D6FD47169A88EC0021A099 /* ViewController.m */; };
+		A0D6FD50169A88EC0021A099 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D6FD4F169A88EC0021A099 /* SenTestingKit.framework */; };
+		A0D6FD51169A88EC0021A099 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D6FD28169A88EC0021A099 /* UIKit.framework */; };
+		A0D6FD52169A88EC0021A099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D6FD2A169A88EC0021A099 /* Foundation.framework */; };
+		A0D6FD5A169A88EC0021A099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD58169A88EC0021A099 /* InfoPlist.strings */; };
+		A0D6FD5D169A88EC0021A099 /* socialtalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D6FD5C169A88EC0021A099 /* socialtalkTests.m */; };
+		A0D6FD73169A92490021A099 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D6FD72169A92490021A099 /* Accounts.framework */; };
+		A0D6FD76169A9ED40021A099 /* ioslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD75169A9ED40021A099 /* ioslogo.png */; };
+		A0D6FD7A169AD52D0021A099 /* iosbg.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D6FD79169AD52D0021A099 /* iosbg.png */; };
+		A0D6FD8D169C07320021A099 /* Opentok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D6FD8C169C07320021A099 /* Opentok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0D6FD53169A88EC0021A099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D6FD1B169A88EC0021A099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D6FD23169A88EC0021A099;
+			remoteInfo = socialtalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A028EC8C169C0D7200F1C137 /* opentok.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = opentok.bundle; path = "../../opentok-ios-sdk/Opentok.framework/Versions/A/Resources/opentok.bundle"; sourceTree = "<group>"; };
+		A028EC8F169C100E00F1C137 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A028EC91169C102E00F1C137 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A028EC93169C103800F1C137 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A028EC95169C104100F1C137 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A028EC97169C105600F1C137 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A028EC99169C106100F1C137 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A028EC9B169C106A00F1C137 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A028EC9D169C107200F1C137 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A028EC9F169C107800F1C137 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A028ECA1169C107E00F1C137 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A028ECA3169C108600F1C137 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A028ECA5169C108C00F1C137 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A028ECA7169C109300F1C137 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A028ECA9169C109C00F1C137 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		A028EDF5169EBE5C00F1C137 /* JHCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCustomSegue.h; sourceTree = "<group>"; };
+		A028EDF6169EBE5C00F1C137 /* JHCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCustomSegue.m; sourceTree = "<group>"; };
+		A028EDF8169EC5BA00F1C137 /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		A028EDF9169EC5BA00F1C137 /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		A0C323CC169FF23900E67645 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		A0C323CF169FF8E800E67645 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A0C323D516A230E800E67645 /* OpenTokViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenTokViewController.h; sourceTree = "<group>"; };
+		A0C323D616A230E800E67645 /* OpenTokViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenTokViewController.m; sourceTree = "<group>"; };
+		A0D6FD24169A88EC0021A099 /* socialtalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialtalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D6FD28169A88EC0021A099 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0D6FD2A169A88EC0021A099 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0D6FD2C169A88EC0021A099 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0D6FD30169A88EC0021A099 /* socialtalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "socialtalk-Info.plist"; sourceTree = "<group>"; };
+		A0D6FD32169A88EC0021A099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0D6FD34169A88EC0021A099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0D6FD36169A88EC0021A099 /* socialtalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "socialtalk-Prefix.pch"; sourceTree = "<group>"; };
+		A0D6FD37169A88EC0021A099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0D6FD38169A88EC0021A099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0D6FD3A169A88EC0021A099 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0D6FD3C169A88EC0021A099 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0D6FD3E169A88EC0021A099 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A0D6FD41169A88EC0021A099 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A0D6FD44169A88EC0021A099 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A0D6FD46169A88EC0021A099 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0D6FD47169A88EC0021A099 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0D6FD4E169A88EC0021A099 /* socialtalkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socialtalkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D6FD4F169A88EC0021A099 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0D6FD57169A88EC0021A099 /* socialtalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "socialtalkTests-Info.plist"; sourceTree = "<group>"; };
+		A0D6FD59169A88EC0021A099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0D6FD5B169A88EC0021A099 /* socialtalkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socialtalkTests.h; sourceTree = "<group>"; };
+		A0D6FD5C169A88EC0021A099 /* socialtalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socialtalkTests.m; sourceTree = "<group>"; };
+		A0D6FD72169A92490021A099 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A0D6FD75169A9ED40021A099 /* ioslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ioslogo.png; path = ../../../Desktop/ioslogo.png; sourceTree = "<group>"; };
+		A0D6FD79169AD52D0021A099 /* iosbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iosbg.png; path = ../../../Desktop/iosbg.png; sourceTree = "<group>"; };
+		A0D6FD8C169C07320021A099 /* Opentok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Opentok.framework; path = "../opentok-ios-sdk/Opentok.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0D6FD21169A88EC0021A099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C323D0169FF8E800E67645 /* Social.framework in Frameworks */,
+				A028ECAA169C109C00F1C137 /* libstdc++.dylib in Frameworks */,
+				A028ECA8169C109300F1C137 /* libz.dylib in Frameworks */,
+				A028ECA6169C108C00F1C137 /* AVFoundation.framework in Frameworks */,
+				A028ECA4169C108600F1C137 /* QuartzCore.framework in Frameworks */,
+				A028ECA2169C107E00F1C137 /* OpenGLES.framework in Frameworks */,
+				A028ECA0169C107800F1C137 /* CoreVideo.framework in Frameworks */,
+				A028EC9E169C107200F1C137 /* CoreAudio.framework in Frameworks */,
+				A028EC9C169C106A00F1C137 /* AudioToolbox.framework in Frameworks */,
+				A028EC9A169C106100F1C137 /* Security.framework in Frameworks */,
+				A028EC98169C105600F1C137 /* CoreMedia.framework in Frameworks */,
+				A028EC96169C104100F1C137 /* SystemConfiguration.framework in Frameworks */,
+				A028EC94169C103800F1C137 /* CFNetwork.framework in Frameworks */,
+				A028EC92169C102E00F1C137 /* MobileCoreServices.framework in Frameworks */,
+				A028EC90169C100E00F1C137 /* CoreTelephony.framework in Frameworks */,
+				A0D6FD8D169C07320021A099 /* Opentok.framework in Frameworks */,
+				A0D6FD73169A92490021A099 /* Accounts.framework in Frameworks */,
+				A0D6FD29169A88EC0021A099 /* UIKit.framework in Frameworks */,
+				A0D6FD2B169A88EC0021A099 /* Foundation.framework in Frameworks */,
+				A0D6FD2D169A88EC0021A099 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D6FD4A169A88EC0021A099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D6FD50169A88EC0021A099 /* SenTestingKit.framework in Frameworks */,
+				A0D6FD51169A88EC0021A099 /* UIKit.framework in Frameworks */,
+				A0D6FD52169A88EC0021A099 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0D6FD19169A88EC0021A099 = {
+			isa = PBXGroup;
+			children = (
+				A0C323CF169FF8E800E67645 /* Social.framework */,
+				A0C323CC169FF23900E67645 /* Twitter.framework */,
+				A028ECA9169C109C00F1C137 /* libstdc++.dylib */,
+				A028ECA7169C109300F1C137 /* libz.dylib */,
+				A028ECA5169C108C00F1C137 /* AVFoundation.framework */,
+				A028ECA3169C108600F1C137 /* QuartzCore.framework */,
+				A028ECA1169C107E00F1C137 /* OpenGLES.framework */,
+				A028EC9F169C107800F1C137 /* CoreVideo.framework */,
+				A028EC9D169C107200F1C137 /* CoreAudio.framework */,
+				A028EC9B169C106A00F1C137 /* AudioToolbox.framework */,
+				A028EC99169C106100F1C137 /* Security.framework */,
+				A028EC97169C105600F1C137 /* CoreMedia.framework */,
+				A028EC95169C104100F1C137 /* SystemConfiguration.framework */,
+				A028EC93169C103800F1C137 /* CFNetwork.framework */,
+				A028EC91169C102E00F1C137 /* MobileCoreServices.framework */,
+				A028EC8F169C100E00F1C137 /* CoreTelephony.framework */,
+				A0D6FD2E169A88EC0021A099 /* socialtalk */,
+				A0D6FD55169A88EC0021A099 /* socialtalkTests */,
+				A0D6FD27169A88EC0021A099 /* Frameworks */,
+				A0D6FD25169A88EC0021A099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0D6FD25169A88EC0021A099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0D6FD24169A88EC0021A099 /* socialtalk.app */,
+				A0D6FD4E169A88EC0021A099 /* socialtalkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0D6FD27169A88EC0021A099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D6FD8C169C07320021A099 /* Opentok.framework */,
+				A0D6FD72169A92490021A099 /* Accounts.framework */,
+				A0D6FD28169A88EC0021A099 /* UIKit.framework */,
+				A0D6FD2A169A88EC0021A099 /* Foundation.framework */,
+				A0D6FD2C169A88EC0021A099 /* CoreGraphics.framework */,
+				A0D6FD4F169A88EC0021A099 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0D6FD2E169A88EC0021A099 /* socialtalk */ = {
+			isa = PBXGroup;
+			children = (
+				A028EC8C169C0D7200F1C137 /* opentok.bundle */,
+				A0D6FD37169A88EC0021A099 /* AppDelegate.h */,
+				A0D6FD38169A88EC0021A099 /* AppDelegate.m */,
+				A0D6FD40169A88EC0021A099 /* MainStoryboard_iPhone.storyboard */,
+				A0C323D516A230E800E67645 /* OpenTokViewController.h */,
+				A0C323D616A230E800E67645 /* OpenTokViewController.m */,
+				A0D6FD43169A88EC0021A099 /* MainStoryboard_iPad.storyboard */,
+				A0D6FD46169A88EC0021A099 /* ViewController.h */,
+				A0D6FD47169A88EC0021A099 /* ViewController.m */,
+				A0D6FD2F169A88EC0021A099 /* Supporting Files */,
+				A028EDF5169EBE5C00F1C137 /* JHCustomSegue.h */,
+				A028EDF6169EBE5C00F1C137 /* JHCustomSegue.m */,
+				A028EDF8169EC5BA00F1C137 /* FriendListViewController.h */,
+				A028EDF9169EC5BA00F1C137 /* FriendListViewController.m */,
+			);
+			path = socialtalk;
+			sourceTree = "<group>";
+		};
+		A0D6FD2F169A88EC0021A099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0D6FD79169AD52D0021A099 /* iosbg.png */,
+				A0D6FD75169A9ED40021A099 /* ioslogo.png */,
+				A0D6FD30169A88EC0021A099 /* socialtalk-Info.plist */,
+				A0D6FD31169A88EC0021A099 /* InfoPlist.strings */,
+				A0D6FD34169A88EC0021A099 /* main.m */,
+				A0D6FD36169A88EC0021A099 /* socialtalk-Prefix.pch */,
+				A0D6FD3A169A88EC0021A099 /* Default.png */,
+				A0D6FD3C169A88EC0021A099 /* Default@2x.png */,
+				A0D6FD3E169A88EC0021A099 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0D6FD55169A88EC0021A099 /* socialtalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D6FD5B169A88EC0021A099 /* socialtalkTests.h */,
+				A0D6FD5C169A88EC0021A099 /* socialtalkTests.m */,
+				A0D6FD56169A88EC0021A099 /* Supporting Files */,
+			);
+			path = socialtalkTests;
+			sourceTree = "<group>";
+		};
+		A0D6FD56169A88EC0021A099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0D6FD57169A88EC0021A099 /* socialtalkTests-Info.plist */,
+				A0D6FD58169A88EC0021A099 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0D6FD23169A88EC0021A099 /* socialtalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D6FD60169A88EC0021A099 /* Build configuration list for PBXNativeTarget "socialtalk" */;
+			buildPhases = (
+				A0D6FD20169A88EC0021A099 /* Sources */,
+				A0D6FD21169A88EC0021A099 /* Frameworks */,
+				A0D6FD22169A88EC0021A099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = socialtalk;
+			productName = socialtalk;
+			productReference = A0D6FD24169A88EC0021A099 /* socialtalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0D6FD4D169A88EC0021A099 /* socialtalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D6FD63169A88EC0021A099 /* Build configuration list for PBXNativeTarget "socialtalkTests" */;
+			buildPhases = (
+				A0D6FD49169A88EC0021A099 /* Sources */,
+				A0D6FD4A169A88EC0021A099 /* Frameworks */,
+				A0D6FD4B169A88EC0021A099 /* Resources */,
+				A0D6FD4C169A88EC0021A099 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D6FD54169A88EC0021A099 /* PBXTargetDependency */,
+			);
+			name = socialtalkTests;
+			productName = socialtalkTests;
+			productReference = A0D6FD4E169A88EC0021A099 /* socialtalkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0D6FD1B169A88EC0021A099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = socialtalk;
+			};
+			buildConfigurationList = A0D6FD1E169A88EC0021A099 /* Build configuration list for PBXProject "socialtalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0D6FD19169A88EC0021A099;
+			productRefGroup = A0D6FD25169A88EC0021A099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D6FD23169A88EC0021A099 /* socialtalk */,
+				A0D6FD4D169A88EC0021A099 /* socialtalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0D6FD22169A88EC0021A099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D6FD33169A88EC0021A099 /* InfoPlist.strings in Resources */,
+				A0D6FD3B169A88EC0021A099 /* Default.png in Resources */,
+				A0D6FD3D169A88EC0021A099 /* Default@2x.png in Resources */,
+				A0D6FD3F169A88EC0021A099 /* Default-568h@2x.png in Resources */,
+				A0D6FD42169A88EC0021A099 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A0D6FD45169A88EC0021A099 /* MainStoryboard_iPad.storyboard in Resources */,
+				A0D6FD76169A9ED40021A099 /* ioslogo.png in Resources */,
+				A0D6FD7A169AD52D0021A099 /* iosbg.png in Resources */,
+				A028EC8D169C0D7200F1C137 /* opentok.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D6FD4B169A88EC0021A099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D6FD5A169A88EC0021A099 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0D6FD4C169A88EC0021A099 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0D6FD20169A88EC0021A099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D6FD35169A88EC0021A099 /* main.m in Sources */,
+				A0D6FD39169A88EC0021A099 /* AppDelegate.m in Sources */,
+				A0D6FD48169A88EC0021A099 /* ViewController.m in Sources */,
+				A028EDF7169EBE5C00F1C137 /* JHCustomSegue.m in Sources */,
+				A028EDFA169EC5BA00F1C137 /* FriendListViewController.m in Sources */,
+				A0C323D716A230E800E67645 /* OpenTokViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D6FD49169A88EC0021A099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D6FD5D169A88EC0021A099 /* socialtalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0D6FD54169A88EC0021A099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D6FD23169A88EC0021A099 /* socialtalk */;
+			targetProxy = A0D6FD53169A88EC0021A099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0D6FD31169A88EC0021A099 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D6FD32169A88EC0021A099 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0D6FD40169A88EC0021A099 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D6FD41169A88EC0021A099 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A0D6FD43169A88EC0021A099 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D6FD44169A88EC0021A099 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A0D6FD58169A88EC0021A099 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D6FD59169A88EC0021A099 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0D6FD5E169A88EC0021A099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0D6FD5F169A88EC0021A099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0D6FD61169A88EC0021A099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../opentok-ios-sdk\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "socialtalk/socialtalk-Prefix.pch";
+				INFOPLIST_FILE = "socialtalk/socialtalk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0D6FD62169A88EC0021A099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../opentok-ios-sdk\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "socialtalk/socialtalk-Prefix.pch";
+				INFOPLIST_FILE = "socialtalk/socialtalk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0D6FD64169A88EC0021A099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/socialtalk.app/socialtalk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "socialtalk/socialtalk-Prefix.pch";
+				INFOPLIST_FILE = "socialtalkTests/socialtalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A0D6FD65169A88EC0021A099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/socialtalk.app/socialtalk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "socialtalk/socialtalk-Prefix.pch";
+				INFOPLIST_FILE = "socialtalkTests/socialtalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0D6FD1E169A88EC0021A099 /* Build configuration list for PBXProject "socialtalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D6FD5E169A88EC0021A099 /* Debug */,
+				A0D6FD5F169A88EC0021A099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D6FD60169A88EC0021A099 /* Build configuration list for PBXNativeTarget "socialtalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D6FD61169A88EC0021A099 /* Debug */,
+				A0D6FD62169A88EC0021A099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D6FD63169A88EC0021A099 /* Build configuration list for PBXNativeTarget "socialtalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D6FD64169A88EC0021A099 /* Debug */,
+				A0D6FD65169A88EC0021A099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0D6FD1B169A88EC0021A099 /* Project object */;
+}
