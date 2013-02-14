@@ -32,6 +32,10 @@ function sendTwitterInvite(){
 		data:'command=message&text='+escape(text)+'&user_id='+user_id,
 		dataType:'json',
 		success:function(d){
+			$('#sendTwitterInviteSuccess').html('Success!');
+			setTimeout(function(){
+				$('#sendTwitterInviteSuccess').html('');
+			},2000);
 			console.log(d);
 		}
 	})
