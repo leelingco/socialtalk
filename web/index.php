@@ -8,6 +8,9 @@
 		<script type="text/javascript" src="http://staging.tokbox.com/v0.91/js/TB.min.js"></script>
 		<script type="text/javascript" src="scripts/swfobject.js"></script>
 		<script type="text/javascript" src="scripts/toklive_config.js"></script>
+		<script>
+			var TokLiveSession='<?php echo $_REQUEST["sessionId"]?>';
+		</script>
 		<!--<script type="text/javascript" src="scripts/toklive.js"></script>-->
 		<script type="text/javascript" src="scripts/main.js"></script>		
 	</head>
@@ -16,7 +19,6 @@
 		<script>
 		var TwitterAccessToken;
 		var TwitterOAuthToken=$.cookie('TwitterOAuthToken');
-		var TokLiveSession='<?php echo $_REQUEST["sessionId"]?>';
 		var TokLiveToken='<?php echo $token;?>';
 		function login() {
 		    FB.login(function(response) {
