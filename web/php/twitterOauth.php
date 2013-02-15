@@ -18,8 +18,8 @@ $store   = OAuthStore::instance('MySQL', $options);
 
 $user_id = 1;
 $store->deleteServer($ck, $user_id);
-echo 11;
-return;
+
+
 // The server description
 $server = array(
     'consumer_key' => $ck,
