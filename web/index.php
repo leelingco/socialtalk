@@ -46,10 +46,10 @@
 			    // connected
 			  } else if (response.status === 'not_authorized') {
 			    // not_authorized
-			login();
+			//login();
 			  } else {
 			    // not_logged_in
-			login();
+			//login();
 			  }
 			 });
 		  };
