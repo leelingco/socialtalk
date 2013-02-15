@@ -43,7 +43,7 @@ function sendTwitterInvite(){
 function createSession(){
 	var url=TokLiveSession==''?'/socialtalk/web/php/GetSession.php':('/socialtalk/web/php/GetSession.php?sessionId='+TokLiveSession);
 	$.ajax({
-		url:'/socialtalk/web/php/GetSession.php',
+		url:url,
 		success:function(d){
 			var result=JSON.parse(d).result;
 			TokLiveSession=result.sessionId;
