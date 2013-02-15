@@ -40,6 +40,7 @@ function sendTwitterInvite(){
 		}
 	})
 }
+
 function createSession(){
 	var url=TokLiveSession==''?'/socialtalk/web/php/GetSession.php':('/socialtalk/web/php/GetSession.php?sessionId='+TokLiveSession);
 	$.ajax({
@@ -59,7 +60,6 @@ function loadVideoWindow(){
 	var apiKey = '22095912';
 	var session = TB.initSession(TokLiveSession);
 	setTimeout(function(){
-		console.log(TokLiveSession);
 		$('#share-url').val('hey, join me at http://www.cambridgesolutions.net/socialtalk/web/index.php?sessionId='+TokLiveSession);
 	},5000);
 	session.addEventListener('sessionConnected', sessionConnectedHandler);
@@ -90,7 +90,9 @@ function loadVideoWindow(){
 		      }
 		    }
 }
-
+if(TokLiveSession!=''){
+	createSession();
+}
 function endVideo(){
 	$('.right>div').html("<img id='video-window' src='http://placehold.it/600x450&text=Video'>");
 	$('#create-chartroom').html('create a chartroom').unbind('click').click(function(){
