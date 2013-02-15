@@ -41,6 +41,7 @@ function sendTwitterInvite(){
 	})
 }
 function createSession(){
+	var url=TokLiveSession==''?'/socialtalk/web/php/GetSession.php':('/socialtalk/web/php/GetSession.php?sessionId='+TokLiveSession);
 	$.ajax({
 		url:'/socialtalk/web/php/GetSession.php',
 		success:function(d){
@@ -89,7 +90,7 @@ function loadVideoWindow(){
 		      }
 		    }
 }
-loadVideoWindow();
+
 function endVideo(){
 	$('.right>div').html("<img id='video-window' src='http://placehold.it/600x450&text=Video'>");
 	$('#create-chartroom').html('create a chartroom').unbind('click').click(function(){
