@@ -58,6 +58,7 @@ function loadVideoWindow(){
 	var apiKey = '22095912';
 	var session = TB.initSession(TokLiveSession);
 	setTimeout(function(){
+		console.log(TokLiveSession);
 		$('#share-url').val('hey, join me at http://www.cambridgesolutions.net/socialtalk/web/index.php?sessionId='+TokLiveSession);
 	},5000);
 	session.addEventListener('sessionConnected', sessionConnectedHandler);

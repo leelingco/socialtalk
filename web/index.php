@@ -16,7 +16,7 @@
 		<script>
 		var TwitterAccessToken;
 		var TwitterOAuthToken=$.cookie('TwitterOAuthToken');
-		var TokLiveSession='<?php echo $sessionId;?>';
+		var TokLiveSession='<?php echo $_REQUEST["sessionId"]?>';
 		var TokLiveToken='<?php echo $token;?>';
 		function login() {
 		    FB.login(function(response) {
