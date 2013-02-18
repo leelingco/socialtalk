@@ -8,8 +8,8 @@ if($serverHost=='127.0.0.1'){
 	                 'password' => '',  'database' => 'test');
 	$consumer_key = 'pxAhOddHpARGQcqfyEu3Q';
 }else{
-	$options = array('server' => 'mysql.cambridgesolutions.net', 'username' => 'toklive',
-	                 'password' => '0fferpal',  'database' => 'toklive');
+	$options = array('server' => 'mysql.cambridgesolutions.net', 'username' => 'socialtalk',
+	                 'password' => '0fferpal',  'database' => 'socialtalk');
 	$consumer_key='I6mfCEfoJrC7Yxgi6sv2g';
 }
 
