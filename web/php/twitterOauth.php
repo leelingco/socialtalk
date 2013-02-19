@@ -8,8 +8,8 @@ if($serverHost=='127.0.0.1'){
 	$ck='pxAhOddHpARGQcqfyEu3Q';
 	$cs='45w8NSfMtDyjrB5xriultt743lXSEvq0DqN5q7gU';
 }else{
-	$options = array('server' => 'mysql.cambridgesolutions.net', 'username' => 'toklive',
-	                 'password' => '0fferpal',  'database' => 'toklive');
+	$options = array('server' => 'mysql.cambridgesolutions.net', 'username' => 'socialtalk',
+	                 'password' => '0fferpal',  'database' => 'socialtalk');
 	$ck='I6mfCEfoJrC7Yxgi6sv2g';
 	$cs='nEFURXnMefLbL1nh7drkvr3CLl9HR92l31XplZqxdgQ';
 }
