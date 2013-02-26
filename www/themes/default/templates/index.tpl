@@ -39,9 +39,11 @@
 {/if}
 
 {*Block for displaying the system anouncements*}
+{*
 {capture name='t_links_code'}
  {include file = "includes/blocks/links.tpl"}
 {/capture}
+*}
 
 {*Block for displaying the system anouncements*}
 {capture name='t_news_code'}
@@ -79,7 +81,6 @@
   {include file = "includes/blocks/cart.tpl"}
  {/capture}
 {/if}
-
 
 {capture name = "left_code"}
     {if $T_POSITIONS.leftList || !$T_POSITIONS}

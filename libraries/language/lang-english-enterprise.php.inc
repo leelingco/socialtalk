@@ -2,8 +2,8 @@
 if (is_file($GLOBALS['path']."language/custom-english.php.inc")) {
     include($GLOBALS['path']."language/custom-english.php.inc");
 }
-define("_EFRONTURL", "http://www.efrontlearning.net");
-define("_EFRONTNAME", "eFront");
+define("_EFRONTURL", "http://www.cambridgesolutions.net");
+define("_EFRONTNAME", "cambridgeSolutions");
 define("_EFRONTLOGIN", "Login to eFront");
 define("_HEADERLANGUAGEHTMLTAG","en");
 define("_CURRENTLANGUAGESYMBOL","en");
@@ -1321,7 +1321,7 @@ define("_SENDASEMAILALSO", "Send also as email");
 define("_NOSUBJECT", "No subject");
 define("_THEMESSAGEWASNOTSENTASEMAIL", "The message could not be emailed");
 define("_TOTALLOGINTIME","Total time in system");
-define("_THENEWFORMOFADDITIVELEARNING","Refreshing eLearning");
+define("_THENEWFORMOFADDITIVELEARNING","Social Learning");
 define("_AUTOMATICUSERACTIVATION","Automatic user activation");
 define("_USERSEXPORT","Export users");
 define("_USERSIMPORT","Import users");

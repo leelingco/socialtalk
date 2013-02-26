@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
+<?php /* Smarty version 2.6.26, created on 2013-02-24 11:12:06
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'index.tpl', 88, false),array('modifier', 'basename', 'index.tpl', 285, false),array('modifier', 'replace', 'index.tpl', 285, false),array('function', 'eF_template_printBlock', 'index.tpl', 90, false),array('function', 'eF_template_printMessageBlock', 'index.tpl', 107, false),array('function', 'eF_template_printForm', 'index.tpl', 222, false),array('insert', 'customBlock', 'index.tpl', 92, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'index.tpl', 89, false),array('modifier', 'basename', 'index.tpl', 286, false),array('modifier', 'replace', 'index.tpl', 286, false),array('function', 'eF_template_printBlock', 'index.tpl', 91, false),array('function', 'eF_template_printMessageBlock', 'index.tpl', 108, false),array('function', 'eF_template_printForm', 'index.tpl', 223, false),array('insert', 'customBlock', 'index.tpl', 93, false),)), $this); ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "includes/header.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
@@ -31,11 +31,7 @@ unset($_smarty_tpl_vars);
 $this->_smarty_include(array('smarty_include_tpl_file' => "includes/blocks/checker.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
- ?><?php echo ''; ?><?php $this->_smarty_vars['capture']['t_checker_code'] = ob_get_contents(); ob_end_clean(); ?><?php echo ''; ?><?php endif; ?><?php echo ''; ?><?php echo ''; ?><?php ob_start(); ?><?php echo ''; ?><?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "includes/blocks/links.tpl", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?><?php echo ''; ?><?php $this->_smarty_vars['capture']['t_links_code'] = ob_get_contents(); ob_end_clean(); ?><?php echo ''; ?><?php echo ''; ?><?php ob_start(); ?><?php echo ''; ?><?php $_smarty_tpl_vars = $this->_tpl_vars;
+ ?><?php echo ''; ?><?php $this->_smarty_vars['capture']['t_checker_code'] = ob_get_contents(); ob_end_clean(); ?><?php echo ''; ?><?php endif; ?><?php echo ''; ?><?php echo ''; ?><?php echo ''; ?><?php echo ''; ?><?php ob_start(); ?><?php echo ''; ?><?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "includes/blocks/news.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
+<?php /* Smarty version 2.6.26, created on 2013-02-21 23:20:38
          compiled from includes/closing.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'eF_template_printBlock', 'includes/closing.tpl', 47, false),array('modifier', 'basename', 'includes/closing.tpl', 156, false),array('modifier', 'replace', 'includes/closing.tpl', 156, false),)), $this); ?>

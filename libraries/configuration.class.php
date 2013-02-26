@@ -86,8 +86,8 @@ class EfrontConfiguration
   'phplivedocx_username' => '',
   'phplivedocx_password' => '',
         //Appearance
-        'site_name' => 'eFront',
-        'site_motto' => 'Refreshing eLearning',
+        'site_name' => 'Cambridge Solutions',
+        'site_motto' => 'Social Learning Platform',
   'motto_on_header' => '0',
      'lessons_directory' => '1', //0 means 'no', 1 means 'yes', and 2 means 'only after login'
      'collapse_catalog' => '0', // 0 means 'no', 1 means 'yes' and  2 means 'only for lessons'

@@ -3,7 +3,7 @@ if (is_file($GLOBALS['path']."language/custom-english.php.inc")) {
     include($GLOBALS['path']."language/custom-english.php.inc");
 }
 define("_EFRONTURL", "http://www.efrontlearning.net");
-define("_EFRONTNAME", "eFront");
+define("_EFRONTNAME", "cambridgeSolutions");
 define("_EFRONTLOGIN", "Login to eFront");
 define("_HEADERLANGUAGEHTMLTAG","en");
 define("_CURRENTLANGUAGESYMBOL","en");
@@ -630,7 +630,7 @@ define("_PLEASECLICKTHECONFIRMATIONLINKBELOW", "Please click the confirmation li
 define("_WITHTHENEWPASSWORD", "with your new account password.");
 define("_REGISTRATIONEMAIL", "Registration email");
 define("_CURRENCYSYMBOL", "&euro;");
-define("_ELEARNINGPLATFORM", "eLearning platform");
+define("_ELEARNINGPLATFORM", "socail learning platform");
 define("_ACCOUNTACTIVATEDWITHPERSONALINFORMATION", "Your account was successfully created with the following personal information:");
 define("_YOUHAVEAPPLIEDFORTHELESSONS", "You have applied to attend the following lessons:");
 define("_YOUMAYSTARTUSINGFREEIMMEDIATELYBUTNOTNONFREE", "You may start attending lessons that are free immediately. If your selection includes lessons that are not free, the administrator must apply your selection before using them.");
@@ -1321,7 +1321,7 @@ define("_SENDASEMAILALSO", "Send also as email");
 define("_NOSUBJECT", "No subject");
 define("_THEMESSAGEWASNOTSENTASEMAIL", "The message could not be emailed");
 define("_TOTALLOGINTIME","Total time in system");
-define("_THENEWFORMOFADDITIVELEARNING","Refreshing eLearning");
+define("_THENEWFORMOFADDITIVELEARNING","Social Learning");
 define("_AUTOMATICUSERACTIVATION","Automatic user activation");
 define("_USERSEXPORT","Export users");
 define("_USERSIMPORT","Import users");

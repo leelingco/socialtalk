@@ -4,14 +4,17 @@
     <base href = "{$smarty.const.G_SERVERNAME}">
     <meta http-equiv = "Content-Language" content = "{$smarty.const._HEADERLANGUAGEHTMLTAG}">
     <meta http-equiv = "keywords" content = "education">
-    <meta http-equiv = "description" content = "Collaborative Elearning Platform">
+    <meta http-equiv = "description" content = "Social Learning Platform">
     <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8">
     <link rel="shortcut icon" href="{if $T_FAVICON}{$T_FAVICON}{else}themes/default/images/favicon.png{/if}">
     <link rel = "stylesheet" type = "text/css" href = "{$smarty.const.G_CURRENTTHEMECSS}">
     {foreach name = 'module_css_list' item = item key = key from = $T_MODULE_CSS}
     <link rel = "stylesheet" type = "text/css" href = "{$item}?build={$smarty.const.G_BUILD}" /> {*///MODULES LINK STYLESHEETS*}
     {/foreach}
+{*
     <title>{if $T_CONFIGURATION.site_name}{$T_CONFIGURATION.site_name}{else}{$smarty.const._EFRONTNAME}{/if} | {if $T_CONFIGURATION.site_motto}{$T_CONFIGURATION.site_motto}{else}{$smarty.const._THENEWFORMOFADDITIVELEARNING}{/if}</title>
+*}
+    <title>Cambridge Solutions|Social Learning Platform </title>
 
     {if $T_OPEN_FACEBOOK_SESSION}
     <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
@@ -22,7 +25,9 @@
         {assign var='sitename' value=$T_CONFIGURATION.site_name|replace:'"':'\"'}
   {assign var='sitemotto' value=$T_CONFIGURATION.site_motto|replace:'"':'\"'}
 
+{*
         top.document.title = "{if $T_CONFIGURATION.site_name}{$sitename}{else}{$smarty.const._EFRONTNAME}{/if} | {if $T_TITLE_BAR}{$T_TITLE_BAR|replace:'"':'\"'}{else}{if $T_CONFIGURATION.site_motto}{$sitemotto|strip_tags}{else}{$smarty.const._THENEWFORMOFADDITIVELEARNING}{/if}{/if}";
+*}
         if (window.name == 'POPUP_FRAME') var popup=1;
         {if $T_BROWSER == 'IE6'}var globalImageExtension = 'gif';{else}var globalImageExtension = 'png';{/if}
 

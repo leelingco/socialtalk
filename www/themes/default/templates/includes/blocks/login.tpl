@@ -37,9 +37,11 @@
       <div class = "formElement">
              <div class = "field">{$T_LOGIN_FORM.submit_login.html}</div>
              {if $T_CONFIGURATION.signup && !$T_CONFIGURATION.only_ldap}<div class = "small note"><a href = "{$smarty.server.PHP_SELF}?ctg=signup">{$smarty.const._DONTHAVEACCOUNT}</a></div>{/if}
+{*
              {if $T_CONFIGURATION.password_reminder && !$T_CONFIGURATION.only_ldap}<div class = "small note"><a href = "{$smarty.server.PHP_SELF}?ctg=reset_pwd">{$smarty.const._FORGOTPASSWORD}</a></div>{/if}
              <div class = "small note"><a href = "{$smarty.server.PHP_SELF}?ctg=contact">{$smarty.const._CONTACTUS}</a></div>
              {if $T_CONFIGURATION.lessons_directory == 1}<div class = "small note"><a href = "{$smarty.server.PHP_SELF}?ctg=lessons">{$smarty.const._LESSONSLIST}</a></div>{/if}
+*}
          </div>
 
    {if $T_OPEN_FACEBOOK_SESSION && !$T_NO_FACEBOOK_LOGIN}

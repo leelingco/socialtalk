@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
+<?php /* Smarty version 2.6.26, created on 2013-02-21 23:20:38
          compiled from includes/blocks/online_users.tpl */ ?>
 <?php echo ''; ?><?php $_from = $this->_tpl_vars['T_ONLINE_USERS_LIST']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['online_users'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['online_users']['total'] > 0):

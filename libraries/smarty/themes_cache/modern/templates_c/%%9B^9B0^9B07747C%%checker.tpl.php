@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
+<?php /* Smarty version 2.6.26, created on 2013-02-21 23:20:38
          compiled from includes/blocks/checker.tpl */ ?>
 <script>
 var translationcheckBrowser = "<?php echo @_CHECKBROWSER; ?>

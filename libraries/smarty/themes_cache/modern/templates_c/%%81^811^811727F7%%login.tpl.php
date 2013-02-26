@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:00
+<?php /* Smarty version 2.6.26, created on 2013-02-24 11:01:51
          compiled from includes/blocks/login.tpl */ ?>
     <?php echo $this->_tpl_vars['T_LOGIN_FORM']['javascript']; ?>
 
@@ -51,15 +51,6 @@
 </div>
              <?php if ($this->_tpl_vars['T_CONFIGURATION']['signup'] && ! $this->_tpl_vars['T_CONFIGURATION']['only_ldap']): ?><div class = "small note"><a href = "<?php echo $_SERVER['PHP_SELF']; ?>
 ?ctg=signup"><?php echo @_DONTHAVEACCOUNT; ?>
-</a></div><?php endif; ?>
-             <?php if ($this->_tpl_vars['T_CONFIGURATION']['password_reminder'] && ! $this->_tpl_vars['T_CONFIGURATION']['only_ldap']): ?><div class = "small note"><a href = "<?php echo $_SERVER['PHP_SELF']; ?>
-?ctg=reset_pwd"><?php echo @_FORGOTPASSWORD; ?>
-</a></div><?php endif; ?>
-             <div class = "small note"><a href = "<?php echo $_SERVER['PHP_SELF']; ?>
-?ctg=contact"><?php echo @_CONTACTUS; ?>
-</a></div>
-             <?php if ($this->_tpl_vars['T_CONFIGURATION']['lessons_directory'] == 1): ?><div class = "small note"><a href = "<?php echo $_SERVER['PHP_SELF']; ?>
-?ctg=lessons"><?php echo @_LESSONSLIST; ?>
 </a></div><?php endif; ?>
          </div>
 

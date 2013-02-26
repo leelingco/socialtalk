@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-21 01:50:30
+<?php /* Smarty version 2.6.26, created on 2013-02-24 11:05:24
          compiled from student.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'replace', 'student.tpl', 8, false),array('modifier', 'cat', 'student.tpl', 24, false),array('modifier', 'formatLogin', 'student.tpl', 56, false),array('modifier', 'eF_truncate', 'student.tpl', 80, false),array('function', 'eF_template_printBlock', 'student.tpl', 44, false),array('function', 'cycle', 'student.tpl', 302, false),array('function', 'eF_template_printSide', 'student.tpl', 493, false),array('function', 'eF_template_printMessageBlock', 'student.tpl', 541, false),)), $this); ?>

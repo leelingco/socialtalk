@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-20 02:18:07
+<?php /* Smarty version 2.6.26, created on 2013-02-26 06:51:54
          compiled from includes/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'basename', 'includes/header.tpl', 2, false),array('modifier', 'replace', 'includes/header.tpl', 22, false),array('modifier', 'strip_tags', 'includes/header.tpl', 25, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'basename', 'includes/header.tpl', 2, false),array('modifier', 'replace', 'includes/header.tpl', 25, false),)), $this); ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html <?php if (((is_array($_tmp=$_SERVER['PHP_SELF'])) ? $this->_run_mod_handler('basename', true, $_tmp) : basename($_tmp)) == 'browse.php' || ((is_array($_tmp=$_SERVER['PHP_SELF'])) ? $this->_run_mod_handler('basename', true, $_tmp) : basename($_tmp)) == 'browsecontent.php'): ?>class = "whitebg"<?php endif; ?> <?php if ($_GET['popup'] || $this->_tpl_vars['T_POPUP_MODE']): ?>class = "popup"<?php endif; ?> <?php if ($this->_tpl_vars['T_RTL']): ?>dir = "rtl"<?php endif; ?> <?php if ($this->_tpl_vars['T_OPEN_FACEBOOK_SESSION']): ?>xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"<?php endif; ?>>
 <head>
@@ -10,7 +10,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'basename', 
     <meta http-equiv = "Content-Language" content = "<?php echo @_HEADERLANGUAGEHTMLTAG; ?>
 ">
     <meta http-equiv = "keywords" content = "education">
-    <meta http-equiv = "description" content = "Collaborative Elearning Platform">
+    <meta http-equiv = "description" content = "Social Learning Platform">
     <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8">
     <link rel="shortcut icon" href="<?php if ($this->_tpl_vars['T_FAVICON']): ?><?php echo $this->_tpl_vars['T_FAVICON']; ?>
 <?php else: ?>themes/default/images/favicon.png<?php endif; ?>">
@@ -24,11 +24,7 @@ if ($this->_foreach['module_css_list']['total'] > 0):
     <link rel = "stylesheet" type = "text/css" href = "<?php echo $this->_tpl_vars['item']; ?>
 ?build=<?php echo @G_BUILD; ?>
 " />     <?php endforeach; endif; unset($_from); ?>
-    <title><?php if ($this->_tpl_vars['T_CONFIGURATION']['site_name']): ?><?php echo $this->_tpl_vars['T_CONFIGURATION']['site_name']; ?>
-<?php else: ?><?php echo @_EFRONTNAME; ?>
-<?php endif; ?> | <?php if ($this->_tpl_vars['T_CONFIGURATION']['site_motto']): ?><?php echo $this->_tpl_vars['T_CONFIGURATION']['site_motto']; ?>
-<?php else: ?><?php echo @_THENEWFORMOFADDITIVELEARNING; ?>
-<?php endif; ?></title>
+    <title>Cambridge Solutions|Social Learning Platform </title>
 
     <?php if ($this->_tpl_vars['T_OPEN_FACEBOOK_SESSION']): ?>
     <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
@@ -39,12 +35,6 @@ if ($this->_foreach['module_css_list']['total'] > 0):
         <?php $this->assign('sitename', ((is_array($_tmp=$this->_tpl_vars['T_CONFIGURATION']['site_name'])) ? $this->_run_mod_handler('replace', true, $_tmp, '"', '\"') : smarty_modifier_replace($_tmp, '"', '\"'))); ?>
   <?php $this->assign('sitemotto', ((is_array($_tmp=$this->_tpl_vars['T_CONFIGURATION']['site_motto'])) ? $this->_run_mod_handler('replace', true, $_tmp, '"', '\"') : smarty_modifier_replace($_tmp, '"', '\"'))); ?>
 
-        top.document.title = "<?php if ($this->_tpl_vars['T_CONFIGURATION']['site_name']): ?><?php echo $this->_tpl_vars['sitename']; ?>
-<?php else: ?><?php echo @_EFRONTNAME; ?>
-<?php endif; ?> | <?php if ($this->_tpl_vars['T_TITLE_BAR']): ?><?php echo ((is_array($_tmp=$this->_tpl_vars['T_TITLE_BAR'])) ? $this->_run_mod_handler('replace', true, $_tmp, '"', '\"') : smarty_modifier_replace($_tmp, '"', '\"')); ?>
-<?php else: ?><?php if ($this->_tpl_vars['T_CONFIGURATION']['site_motto']): ?><?php echo ((is_array($_tmp=$this->_tpl_vars['sitemotto'])) ? $this->_run_mod_handler('strip_tags', true, $_tmp) : smarty_modifier_strip_tags($_tmp)); ?>
-<?php else: ?><?php echo @_THENEWFORMOFADDITIVELEARNING; ?>
-<?php endif; ?><?php endif; ?>";
         if (window.name == 'POPUP_FRAME') var popup=1;
         <?php if ($this->_tpl_vars['T_BROWSER'] == 'IE6'): ?>var globalImageExtension = 'gif';<?php else: ?>var globalImageExtension = 'png';<?php endif; ?>
 
