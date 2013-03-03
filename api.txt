@@ -1,0 +1,3 @@
+http://www.cambridgesolutions.net/socialtalk/www/api.php?action=token
+
+http://www.cambridgesolutions.net/socialtalk/www/api.php?action=create_user&login=test1&password=test1&email=test1@gmail.com&languages=english&name=test1&surname=test1_first&token=Pge6QnTW9DYd3uU7L7CVdgYlRYXBdr
