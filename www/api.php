@@ -87,7 +87,11 @@ In case of error it returns also a message entity with description of the error 
  $path = "../libraries/";
  require_once $path."configuration.php";
     $data = eF_getTableData("configuration", "value", "name='api'"); //Read current values
+
     $api = $data[0]['value'];
+
+    //linli turning on $api anyway
+    $api=1;
     if ($api == 1){
         if (isset($_GET['action'])){
             $action = $_GET['action'];
@@ -1164,7 +1168,7 @@ In case of error it returns also a message entity with description of the error 
     else{
   echo "<xml>";
         echo "<status>error</status>";
-        echo "<message>The api module is disabled</message>";
+        echo "<message>The api module is disabled on api</message>";
   echo "</xml>";
     }
     function createToken($length){
