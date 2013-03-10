@@ -1265,7 +1265,10 @@ echo "]}";
      if (eF_checkParameter($token, 'alnum')) {
       $tmp = ef_getTableData("tokens","status","token='$token'");
       $token = $tmp[0]['status'];
-      if ($token == 'logged'){
+
+      //linli not checking logged anymore
+      if (true){
+      //if ($token == 'logged'){
        return true;
       }
      }
