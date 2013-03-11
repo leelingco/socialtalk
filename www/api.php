@@ -747,19 +747,20 @@ echo "{\"status\":\"error\", \"message\":\"Invalid token\"}";
                 case 'user_lessons':{
                     if (isset($_GET['token']) && checkToken($_GET['token'])){
                         if (isset($_GET['login'])){
-                            $lessons = eF_getTableData("users_to_lessons ul, lessons l", "l.name", "ul.lessons_ID = l.ID and ul.users_LOGIN='".$_GET['login']."'");
+                            $lessons = eF_getTableData("users_to_lessons ul, lessons l", "l.name, ul.lessons_ID", "ul.lessons_ID = l.ID and ul.users_LOGIN='".$_GET['login']."'");
 
 echo "{[";
 /*
                             echo "<xml>";
 */
                             for ($i=0; $i<sizeof($lessons); $i++){
+$id = $lessons[$i]['lessons_ID'];
 $lesson = $lessons[$i]['name'];
 if($i==0) {
-	echo "{\"lesson\":\"$lesson\"}";
+	echo "{\"id\":\"$id\", \"lesson\":\"$lesson\"}";
 }
 else {
-	echo ", {\"lesson\":\"$lesson\"}";
+	echo ", {\"id\":\"$id\", \"lesson\":\"$lesson\"}";
 }
 /*
                                 echo "<lesson>".$lessons[$i]['name']."</lesson>";
