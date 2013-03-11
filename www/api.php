@@ -928,10 +928,10 @@ echo "{\"lessons\":[";
 $id = $lessons[$i]['id'];
 $name = $lessons[$i]['name'];
 if($i==0) {
-	echo "\"lesson\":{\"id\":\"$id\", \"name\":\"$name\"}";
+	echo "{\"id\":\"$id\", \"name\":\"$name\"}";
 }
 else {
-	echo ",  \"lesson\":{\"id\":\"$id\", \"name\":\"$name\"}";
+	echo ",  {\"id\":\"$id\", \"name\":\"$name\"}";
 }
 /*
                             echo "<lesson>";
