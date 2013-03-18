@@ -372,7 +372,7 @@ try {
  if ($ctg == 'control_panel') {
   $_SESSION['s_lessons_ID'] OR eF_redirect(basename($_SERVER['PHP_SELF']));
      /***/
-     require_once("control_panel.php");
+     require_once("control_panel.php"); 
  }
  elseif ($ctg == 'landing_page') {
      /***/
