@@ -106,6 +106,15 @@ var translations = new Array(); //used for passing language tags to js
 {/if}
 
 <script>var translations = new Array(); /*used for passing language tags to js*/</script>
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="../web/styles/main.css" rel="stylesheet" media="all" >
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://staging.tokbox.com/v0.91/js/TB.min.js"></script>
+		<script type="text/javascript" src="../web/scripts/swfobject.js"></script>
+		<script type="text/javascript" src="../web/scripts/toklive_config.js"></script>
+		<script>
+			var TokLiveSession='<?php echo $_REQUEST["sessionId"]?>';
+		</script>
 
 </head>
 {* Using that to avoid creating a body for the sidebar*}

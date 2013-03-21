@@ -16,7 +16,6 @@
 {/if}
 
 {strip}
-
 {if (isset($T_CTG) && $T_CTG == 'control_panel')}
  {if $T_OP == 'search'}
   {assign var = "title" value = $title}
@@ -559,6 +558,8 @@ function changeItemColor(item, color) {
 *}
   {$smarty.capture.moduleNewLessonsList}
   {$smarty.capture.moduleLessonsList}
+
+{include file = "includes/chatroom.tpl"}
 {*
   {$smarty.capture.moduleTests}
   {$smarty.capture.moduleShowTest}
