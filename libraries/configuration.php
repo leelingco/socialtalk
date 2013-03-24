@@ -18,7 +18,7 @@ define('G_DBNAME', 'socialtalk');
 define('G_DBPREFIX', '');
 
 /** The servername offset */
-define('G_OFFSET', '/socialtalk/www/');
+define('G_OFFSET', '/socialtalk_linli/www/');
 
 /**Software root path*/
 define('G_ROOTPATH', str_replace("\\", "/", dirname(dirname(__FILE__)))."/");
