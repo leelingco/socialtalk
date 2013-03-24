@@ -17,6 +17,7 @@ session_start();
 $path = "../libraries/"; //Define default path
 /** The configuration file.*/
 require_once $path."configuration.php";
+require_once $path."lessonVideoSession.class.php";
 $benchmark = new EfrontBenchmark($debug_TimeStart);
 $benchmark -> set('init');
 //Set headers in order to eliminate browser cache (especially IE's)
@@ -205,6 +206,18 @@ if (isset($_SESSION['package_ID']) && !$_GET['commit_lms']) {
 
 try {
     if (isset($_GET['view_unit']) && eF_checkParameter($_GET['view_unit'], 'id')) {
+        //echo "view_unit::".$_GET['view_unit'];
+        //echo "currentLesson::".print_r($currentLesson, true);
+        //checking to see if we need to create a new session or not
+        if (isset($currentLesson->lesson['active_video_session_id']) == false) {
+          $lessionVideoSession = new LessonVideoSession($currentLesson); //Initialize content
+	  $currentLesson->lesson['active_video_session_id'] = $lessionVideoSession->sessionId;
+	  $currentLesson->lesson['active_video_session_token'] = $lessionVideoSession->token;
+
+          eF_updateTableData("lessons", array('active_video_session_id' => "$lessionVideoSession->sessionId", 'active_video_session_token' => "$lessionVideoSession->token"), "id='".$currentLesson->lesson['id']."'");
+        }
+        echo "lessionVideoSession sessionId::".print_r($currentLesson->lesson['active_video_session_id'], true)." token::".print_r($currentLesson->lesson['active_video_session_id'], true);
+
         $currentContent = new EfrontContentTree($currentLesson); //Initialize content
         $currentContent -> markSeenNodes($currentUser);
 

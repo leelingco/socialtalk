@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-02-26 06:51:54
+<?php /* Smarty version 2.6.26, created on 2013-03-23 23:18:01
          compiled from includes/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'basename', 'includes/header.tpl', 2, false),array('modifier', 'replace', 'includes/header.tpl', 25, false),)), $this); ?>
@@ -125,6 +125,17 @@ var translations = new Array(); //used for passing language tags to js
 <?php endif; ?>
 
 <script>var translations = new Array(); /*used for passing language tags to js*/</script>
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="../web/styles/main.css" rel="stylesheet" media="all" >
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://staging.tokbox.com/v0.91/js/TB.min.js"></script>
+		<script type="text/javascript" src="../web/scripts/swfobject.js"></script>
+		<script type="text/javascript" src="../web/scripts/toklive_config.js"></script>
+		<script>
+			var TokLiveSession='<?php echo '<?php'; ?>
+ echo $_REQUEST["sessionId"]<?php echo '?>'; ?>
+';
+		</script>
 
 </head>
 <?php if (basename($_SERVER['PHP_SELF']) != 'new_sidebar.php'): ?>

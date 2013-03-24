@@ -70,6 +70,7 @@ try {
     // We have all the already attended courses
     $alredy_attending = implode("','", array_keys($editedUser -> getLessons()));
 
+/*linli
     // Thus we can find the missing courses to fill the skill gap
     $lessons_proposed = eF_getTableData("module_hcd_skills LEFT OUTER JOIN module_hcd_lesson_offers_skill ON module_hcd_skills.skill_ID = module_hcd_lesson_offers_skill.skill_ID JOIN lessons ON lessons.id = module_hcd_lesson_offers_skill.lesson_ID","module_hcd_lesson_offers_skill.lesson_ID, lessons.*, count(module_hcd_lesson_offers_skill.skill_ID) as skills_offered", "module_hcd_lesson_offers_skill.skill_ID IN ('".$skills_missing."') AND module_hcd_lesson_offers_skill.lesson_ID NOT IN ('".$alredy_attending."')","","module_hcd_lesson_offers_skill.lesson_ID ORDER BY skills_offered DESC");
 
@@ -77,6 +78,7 @@ try {
     foreach ($lessons_proposed as $lesson) {
      $editedUser -> addLessons($lesson['lesson_ID']);
     }
+*/
    }
    exit;
   }
