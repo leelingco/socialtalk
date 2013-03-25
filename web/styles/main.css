@@ -159,3 +159,6 @@ button{
 	height:200px;
 	float:left;
 }
+.centerTable{
+	overflow:hidden;
+}

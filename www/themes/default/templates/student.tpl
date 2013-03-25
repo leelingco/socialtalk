@@ -544,10 +544,10 @@ function changeItemColor(item, color) {
   {eF_template_printMessageBlock content = $T_SEARCH_MESSAGE type = $T_MESSAGE_TYPE}
  {/if}
  <table class = "centerTable">
-{*
+
   {$smarty.capture.moduleControlPanel}
-*}
-{*
+
+
   {$smarty.capture.moduleProjects}
   {$smarty.capture.moduleLessonInformation}
   {$smarty.capture.moduleNewsPage}
@@ -555,12 +555,10 @@ function changeItemColor(item, color) {
   {$smarty.capture.moduleDigitalLibraryFull}
   {$smarty.capture.moduleCalendarPage}
   {$smarty.capture.moduleNavigation}
-*}
+
   {$smarty.capture.moduleNewLessonsList}
   {$smarty.capture.moduleLessonsList}
 
-{include file = "includes/chatroom.tpl"}
-{*
   {$smarty.capture.moduleTests}
   {$smarty.capture.moduleShowTest}
   {$smarty.capture.moduleSpecificContent}
@@ -584,11 +582,11 @@ function changeItemColor(item, color) {
   {$smarty.capture.moduleForum}
   {$smarty.capture.moduleProgress}
   {$smarty.capture.moduleLandingPage}
-*}
+
  </table>
 {/capture}
 {if !$T_LAYOUT_CLASS}{assign var = "layoutClass" value = "centerFull"}{else}{assign var = "layoutClass" value = $T_LAYOUT_CLASS}{/if}
-{*
+
 {capture name = "left_code"}
  <table class = "centerTable">
   {$smarty.capture.moduleSideOperations}
@@ -599,7 +597,6 @@ function changeItemColor(item, color) {
   {$smarty.capture.moduleSideOperations}
  </table>
 {/capture}
-*}
 {capture name = "t_path_additional_code"}
  <span id = "tab_handles" class = "headerText" {if (!$T_CURRENT_LESSON->options.show_horizontal_bar && $_student_) || $smarty.cookies.horizontalSideBar == 'hidden'}style = "float:right"{/if}>
  {if $smarty.session.s_lessons_ID != '' && !$T_CONFIGURATION.disable_bookmarks && $T_CURRENT_LESSON->options.bookmarking}

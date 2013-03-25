@@ -31,7 +31,6 @@ if (!isset($_GET['reset_popup']) && (isset($_GET['popup']) || isset($_POST['popu
 $search_message = $message = $message_type = ''; //Initialize messages, because if register_globals is turned on, some messages will be displayed twice
 $load_editor = false;
 $loadScripts = array();
-
 try {
  $currentUser = EfrontUser :: checkUserAccess(false, 'student');
  if ($currentUser -> user['user_type'] == 'administrator') {
@@ -70,8 +69,6 @@ if (isset($_COOKIE['c_request']) && $_COOKIE['c_request']) {
     }
 }
 
-
-
 try {
  if (isset($_GET['view_unit']) || isset($_GET['package_ID'])) {
   if ($_GET['view_unit']) {
@@ -85,6 +82,7 @@ try {
   }
   $currentLesson = new EfrontLesson($unit['lessons_ID']);
   $_SESSION['s_lessons_ID'] = $currentLesson -> lesson['id'];
+  $_SESSION['session_id']=$currentLesson->lesson['active_video_session_id'];
   //$_SESSION['s_time_target'] = array($_SESSION['s_lessons_ID'] => 'lesson');
  }
 } catch (Exception $e) {
