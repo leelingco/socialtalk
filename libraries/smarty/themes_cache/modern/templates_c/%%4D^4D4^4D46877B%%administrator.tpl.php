@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:08
+<?php /* Smarty version 2.6.26, created on 2013-03-23 12:04:08
          compiled from administrator.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'administrator.tpl', 28, false),array('modifier', 'formatLogin', 'administrator.tpl', 122, false),array('function', 'eF_template_printBlock', 'administrator.tpl', 248, false),array('function', 'eF_template_printMessageBlock', 'administrator.tpl', 553, false),)), $this); ?>

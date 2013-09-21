@@ -1,14 +1,15 @@
-<?php /* Smarty version 2.6.26, created on 2013-02-21 23:20:38
+<?php /* Smarty version 2.6.26, created on 2013-04-10 00:42:56
          compiled from includes/header_code.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'basename', 'includes/header_code.tpl', 2, false),array('modifier', 'sizeof', 'includes/header_code.tpl', 13, false),array('modifier', 'eF_formatTitlePath', 'includes/header_code.tpl', 74, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'basename', 'includes/header_code.tpl', 2, false),array('modifier', 'sizeof', 'includes/header_code.tpl', 14, false),array('modifier', 'eF_formatTitlePath', 'includes/header_code.tpl', 75, false),)), $this); ?>
  <div id = "logo">
   <a href = "<?php if ($_SESSION['s_login']): ?><?php echo ((is_array($_tmp=$_SERVER['PHP_SELF'])) ? $this->_run_mod_handler('basename', true, $_tmp) : basename($_tmp)); ?>
-<?php else: ?>index.php<?php endif; ?>">
-   <img class = "handle" src = "<?php echo $this->_tpl_vars['T_LOGO']; ?>
+<?php else: ?>index.php<?php endif; ?>" class='stage-title'>
+   <!-- <img class = "handle" src = "<?php echo $this->_tpl_vars['T_LOGO']; ?>
 " title = "<?php echo $this->_tpl_vars['T_CONFIGURATION']['site_name']; ?>
 " alt = "<?php echo $this->_tpl_vars['T_CONFIGURATION']['site_name']; ?>
-" />
+" /> -->
+	Social Talk
   </a>
  </div>
  <?php if ($_SESSION['s_login']): ?>

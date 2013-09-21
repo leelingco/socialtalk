@@ -274,7 +274,7 @@
 
 {capture name = "header_code"}
   <div id = "logo">
-   <a href = "index.php"><img src = "themes/modern/images/logo/logo.png" title = "eFront" alt = "eFront" border = "0"></a>
+   <a href = "index.php" class='stage-title'><!-- <img src = "themes/modern/images/logo/logo.png" title = "eFront" alt = "eFront" border = "0"> -->Social Talk</a>
   </div>
   <div id = "path">
    <div id = "path_title">{$path_title}</div>

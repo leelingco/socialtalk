@@ -2470,11 +2470,13 @@ function eF_redirect($url, $js = false, $target = 'top', $retainUrl = false) {
      }
  }
  session_write_close();
-    if ($js) {
-        echo "<script language='JavaScript'>$target.location='$url'</script>";
-    } else {
-        header("location:$url");
-    }
+echo $url;
+echo "<script language='JavaScript'>$target.location='$url'</script>";
+    // if ($js) {
+    //        echo "<script language='JavaScript'>$target.location='$url'</script>";
+    //    } else {
+    //        header("location:$url");
+    //    }
     exit;
 }
 /**

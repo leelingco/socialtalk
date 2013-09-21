@@ -15,7 +15,6 @@
 		<script type="text/javascript" src="scripts/main.js"></script>		
 	</head>
 	<body>
-	sdfs
 		<script>
 		var TwitterAccessToken;
 		var TwitterOAuthToken=$.cookie('TwitterOAuthToken');
@@ -65,7 +64,7 @@
 		</script>
 			<div id="fb-root"></div>
 		<div class='container stage'>
-			<span class='title'>Cambridge</span>
+			<span class='stage-title'>Cambridge</span>
 			<span class='sub-title'>solutions</span>
 			<ul class="nav">
 				<li><a href="index.html">Home</a></li>

@@ -6,8 +6,9 @@ margin:4px;
 }
 body{
 font-size:12px;
-font-family:"Lucida Grande","Lucida Sans Unicode",helvetica,arial,verdana,sans-serif;
-background:#E2E2E2 url('../images/css_images/page_bg.gif');  /* moved here to avoid scrolling issue in editor*/
+font-family: 'Titillium Web', sans-serif;
+/*font-family:"Lucida Grande","Lucida Sans Unicode",helvetica,arial,verdana,sans-serif;*/
+  /* background:#E2E2E2 url('../images/css_images/page_bg.gif');moved here to avoid scrolling issue in editor*/
 height:99%;
 margin:0px auto 0px auto;
 width:96%;
@@ -38,6 +39,12 @@ html.whitebg{
 height:auto;
 background:#FAFAFA;
 }
+#logo{
+	margin-left:20px;
+}
+#pageLayout{
+	border-top: 5px solid #585858;
+}
 .whitebg body{
 width:auto;
 min-width: 0px;
@@ -55,7 +62,7 @@ position:absolute;
 top:0px;
 z-index:200;
 }
-.divPopup div.blockContents, .popup div.block, .popup div.blockContents{margin:0px auto 0px auto;padding:0px;border-width:0px;width:99%;min-width:0px;}
+.divPopup div.blockContents, .popup div.block, .popup div.blockContents{margin:0px auto 0px auto;padding:0px;border-width:0px;width:99%;min-width:0px; overflow:hidden;}
 .divPopup #popup_title{text-align:center;}
 .dimmerDiv{
 background:#1E3247;
@@ -1177,14 +1184,16 @@ margin-bottom:0px;
 div.blockContents{   
 border: 0px solid #CCC;/*#2A4562;*/
 padding-top:7px;
--moz-border-radius: 5px;
-border-radius: 5px;
+
 /*background:#d00102 url('../images/css_images/gradient.gif') repeat-x top;*/
-background:#FAFAFA url('../images/css_images/gradient_large.gif') repeat-x top;
+/*background:#FAFAFA url('../images/css_images/gradient_large.gif') repeat-x top;*/
+background:#00AEC8;
+color:#fff;
 -moz-box-shadow:0 0 4px #AAAAAA;
 -webkit-box-shadow:0 0 4px #AAAAAA;
 box-shadow:0 0 4px #AAAAAA;
 margin:5px auto;
+overflow:hidden;
 }
 img.blockMoveHandle{display:none}
 ul.sortable img.blockMoveHandle{cursor:move;display:inline}
@@ -1213,10 +1222,10 @@ div.block table.iconTable td.group{
 background-color:#C5D6ED;
 }
 div.block .title {
-padding:10px;
 font-size:14px;
 font-weight:bold;
-color:#FAFAFA;
+color:#fff;
+padding-left:10px;
 }
 div.block .title img{
 vertical-align:middle;
@@ -1254,7 +1263,7 @@ border-bottom-right-radius: 5px;
 -webkit-border-bottom-right-radius: 5px;
 -webkit-border-bottom-left-radius: 5px;
 padding:6px;
-background:#EEE;
+background:#fff;
 }
 div.block .toolbar {
 /*border-top:solid 0px #2a4562;

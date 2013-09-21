@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-18 23:04:32
+<?php /* Smarty version 2.6.26, created on 2013-03-23 12:04:08
          compiled from /home/linli/cambridgesolutions.net/socialtalk/www/modules/module_security/module_security_cpanel.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'eF_template_printBlock', '/home/linli/cambridgesolutions.net/socialtalk/www/modules/module_security/module_security_cpanel.tpl', 17, false),array('modifier', 'cat', '/home/linli/cambridgesolutions.net/socialtalk/www/modules/module_security/module_security_cpanel.tpl', 17, false),)), $this); ?>

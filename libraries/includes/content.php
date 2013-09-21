@@ -28,7 +28,7 @@ if (!$currentUnit) {
     try {
         !isset($currentUnit) ? $currentUnit = $currentContent -> getFirstNode() : null;                                               //If a unit is not specified, then consider the first content unit by default
         $visitableAndEmptyIterator = new EfrontVisitableAndEmptyFilterIterator(new EfrontNodeFilterIterator(new RecursiveIteratorIterator(new RecursiveArrayIterator($currentContent -> tree), RecursiveIteratorIterator :: SELF_FIRST)));
-        $smarty  -> assign("T_CONTENT_TREE", $currentContent -> toHTML($visitableAndEmptyIterator, 'dhtmlContentTree', array('truncateNames' => 25, 'selectedNode' => $currentUnit['id'])));
+        $smarty  -> assign("T_CONTENT_TREE", $currentContent -> toHTML($visitableAndEmptyIterator, 'dhtmlContentTree', ''));
 
         if ($currentUnit['ctg_type'] == 'scorm' || $currentUnit['ctg_type'] == 'scorm_test') {
             $scorm_unit = true;

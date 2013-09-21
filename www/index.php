@@ -16,8 +16,8 @@ if (!isset($_SESSION['s_login'])) {
  session_regenerate_id();
  setcookie("PHPSESSID", session_id(), 0, false, false, false, true);
 }
-
 $path = "../libraries/";
+
 //Automatically redirect to installation page if configuration file is missing
 if (!is_file($path."configuration.php")) { //If the configuration file does not exist, this is a fresh installation, so redirect to installation page
  is_file("install/index.php") ? header("location:install/index.php") : print('Failed locating configuration file <br/> Failed locating installation directory <br/> Please execute installation script manually <br/>');
@@ -26,6 +26,8 @@ if (!is_file($path."configuration.php")) { //If the configuration file does not 
  /** Configuration file */
  require_once $path."configuration.php";
 }
+
+
 
 if ($GLOBALS['configuration']['webserver_auth']) {
  eval('$usernameVar='.$GLOBALS['configuration']['username_variable'].';');
@@ -98,6 +100,7 @@ if (!$smarty -> is_cached('index.tpl', $cacheId) || !$GLOBALS['configuration']['
   $smarty -> assign("T_LANGUAGE", $GLOBALS['configuration']['default_language']);
  }
 }
+
 /*
  * Check if you should input the JS code to
  * trigger sending the next notificatoin emails
@@ -254,6 +257,7 @@ $form -> addRule('password', _THEFIELD.' "'._PASSWORD.'" '._ISMANDATORY, 'requir
 $form -> addElement('checkbox', 'remember', _KEEPMELOGGEDIN, null, 'class = "inputCheckbox" style = "vertical-align:middle"');
 $form -> addElement('submit', 'submit_login', _ENTER, 'class = "flatButton"');
 $form->disable_csrf = true;
+
 if ($form -> isSubmitted() && $form -> validate()) {
  try {
   $user = EfrontUserFactory :: factory(trim($form -> exportValue('login')));
@@ -296,6 +300,7 @@ if ($form -> isSubmitted() && $form -> validate()) {
       eF_redirect("index.php?ctg=checkout&checkout=1");
   } else {
    EfrontEvent::triggerEvent(array("type" => EfrontEvent::SYSTEM_VISITED, "users_LOGIN" => $user -> user['login'], "users_name" => $user -> user['name'], "users_surname" => $user -> user['surname']));
+echo "this is the login happens";
    loginRedirect($user -> user['user_type']);
   }
   exit;

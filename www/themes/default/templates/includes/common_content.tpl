@@ -341,7 +341,8 @@
          {include file = "includes/tests/show_unsolved_test.tpl"}
         {else}
          {if $T_UNIT.data}
-          {$T_UNIT.data}
+ 		{include file = "includes/chatroom.tpl"}
+          {*{$T_UNIT.data}*}
          {elseif $T_NO_START}
           {$smarty.const._CHOOSEUNIT}: {$T_SUBTREE}
          {else}
@@ -504,8 +505,9 @@
           {eF_template_printBlock title = $smarty.const._LESSONFINISHED data = $smarty.capture.t_end_of_lesson_code image = '32x32/information.png'}
          {/if}
          </span>
+ 
       {eF_template_printBlock title = $unit_name data=$smarty.capture.t_content_code image=$image options = $unit_options settings = $T_UNIT_SETTINGS}
-        {/if}
+        {/if} 
      </td>
      </tr>
    </table>

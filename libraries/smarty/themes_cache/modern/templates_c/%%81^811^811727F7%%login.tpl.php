@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-02-24 11:01:51
+<?php /* Smarty version 2.6.26, created on 2013-03-21 23:10:41
          compiled from includes/blocks/login.tpl */ ?>
     <?php echo $this->_tpl_vars['T_LOGIN_FORM']['javascript']; ?>
 

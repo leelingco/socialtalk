@@ -842,6 +842,7 @@ function eF_addSlashesAux(&$v, $k) {
     is_string($v) ? $v = addslashes($v) : null;
 }
 function logProcess($thisQuery, $sql) {
+    //echo "sql::$sql\n";
     if ($GLOBALS['db'] -> debug == true) {
         echo '<span style = "color:red">Time spent on this query: '.(microtime(true) - $thisQuery).'</span>';
     }

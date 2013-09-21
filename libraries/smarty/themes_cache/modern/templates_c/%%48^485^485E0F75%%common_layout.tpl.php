@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-02-21 23:20:38
+<?php /* Smarty version 2.6.26, created on 2013-03-21 17:55:59
          compiled from includes/common_layout.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'basename', 'includes/common_layout.tpl', 37, false),array('modifier', 'eF_formatTitlePath', 'includes/common_layout.tpl', 46, false),)), $this); ?>

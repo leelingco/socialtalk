@@ -61,8 +61,8 @@ class OAuthRequestSigner extends OAuthRequest
 			$options = array('server' => '127.0.0.1', 'username' => 'root',
 			                 'password' => '',  'database' => 'test');
 		}else{
-			$options = array('server' => 'mysql.cambridgesolutions.net', 'username' => 'toklive',
-			                 'password' => '0fferpal',  'database' => 'toklive');
+			$options = array('server' => 'mysql.cambridgesolutions.net', 'username' => 'linli',
+			                 'password' => '0fferpal',  'database' => 'socialtalk');
 		}
 		$this->store = OAuthStore::instance('MySQL', $options);
 		

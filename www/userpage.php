@@ -22,8 +22,9 @@ try {
  eF_redirect("index.php?ctg=expired");
  exit;
 }
+
 if ($GLOBALS['currentTheme'] -> options['sidebar_interface']) {
-    header("location:".$_SESSION['s_type'].".php".($_SERVER['QUERY_STRING'] ? "?".$_SERVER['QUERY_STRING'] : ''));
+    eF_redirect("location:".$_SESSION['s_type'].".php".($_SERVER['QUERY_STRING'] ? "?".$_SERVER['QUERY_STRING'] : ''));
     //$smarty -> assign("T_SIDEBAR_URL", "");		// set an empty source for horizontal sidebars
     //$smarty -> assign("T_SIDEFRAME_WIDTH", 0);
 }

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-02-24 11:05:52
+<?php /* Smarty version 2.6.26, created on 2013-03-23 11:24:41
          compiled from includes/forum.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'eF_template_printBlock', 'includes/forum.tpl', 45, false),array('function', 'cycle', 'includes/forum.tpl', 216, false),array('modifier', 'eF_truncate', 'includes/forum.tpl', 408, false),)), $this); ?>

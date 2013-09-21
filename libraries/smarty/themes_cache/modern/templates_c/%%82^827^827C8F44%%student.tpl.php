@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2013-02-24 11:05:24
+<?php /* Smarty version 2.6.26, created on 2013-03-24 22:56:39
          compiled from student.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'replace', 'student.tpl', 8, false),array('modifier', 'cat', 'student.tpl', 24, false),array('modifier', 'formatLogin', 'student.tpl', 56, false),array('modifier', 'eF_truncate', 'student.tpl', 80, false),array('function', 'eF_template_printBlock', 'student.tpl', 44, false),array('function', 'cycle', 'student.tpl', 302, false),array('function', 'eF_template_printSide', 'student.tpl', 493, false),array('function', 'eF_template_printMessageBlock', 'student.tpl', 541, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'replace', 'student.tpl', 8, false),array('modifier', 'cat', 'student.tpl', 23, false),array('modifier', 'formatLogin', 'student.tpl', 55, false),array('modifier', 'eF_truncate', 'student.tpl', 79, false),array('function', 'eF_template_printBlock', 'student.tpl', 43, false),array('function', 'cycle', 'student.tpl', 301, false),array('function', 'eF_template_printSide', 'student.tpl', 492, false),array('function', 'eF_template_printMessageBlock', 'student.tpl', 540, false),)), $this); ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "includes/header.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

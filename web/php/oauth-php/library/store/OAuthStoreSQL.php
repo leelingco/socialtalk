@@ -71,10 +71,9 @@ abstract class OAuthStoreSQL extends OAuthStoreAbstract
 			{
 				$server   = $options['server'];
 				$username = $options['username'];
-				
 				if (isset($options['password']))
-				{
-					$this->conn = mysql_connect($server, $username, $options['password']);
+				{	
+					$this->conn = mysql_connect("mysql.cambridgesolutions.net", $username, $options['password']);
 				}
 				else
 				{
@@ -86,7 +85,7 @@ abstract class OAuthStoreSQL extends OAuthStoreAbstract
 				
 				// Try the default mysql connect
 				$this->conn = mysql_connect('127.0.0.1','root','');
-				 mysql_select_db('toklive'); 
+				 mysql_select_db('socialtalk'); 
 				
 			}
 

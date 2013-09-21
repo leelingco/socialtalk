@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-02-24 11:05:24
+<?php /* Smarty version 2.6.26, created on 2013-03-21 18:06:04
          compiled from includes/lessons_list.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'includes/lessons_list.tpl', 6, false),array('modifier', 'replace', 'includes/lessons_list.tpl', 163, false),array('function', 'eF_template_printBlock', 'includes/lessons_list.tpl', 37, false),)), $this); ?>

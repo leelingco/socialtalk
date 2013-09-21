@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-21 01:10:57
+<?php /* Smarty version 2.6.26, created on 2013-03-21 18:06:24
          compiled from includes/common_content.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'eF_template_printBlock', 'includes/common_content.tpl', 140, false),array('function', 'cycle', 'includes/common_content.tpl', 360, false),array('function', 'counter', 'includes/common_content.tpl', 421, false),array('modifier', 'eF_truncate', 'includes/common_content.tpl', 255, false),array('modifier', 'str_replace', 'includes/common_content.tpl', 384, false),array('modifier', 'replace', 'includes/common_content.tpl', 527, false),array('modifier', 'cat', 'includes/common_content.tpl', 531, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'eF_template_printBlock', 'includes/common_content.tpl', 140, false),array('function', 'cycle', 'includes/common_content.tpl', 361, false),array('function', 'counter', 'includes/common_content.tpl', 422, false),array('modifier', 'eF_truncate', 'includes/common_content.tpl', 255, false),array('modifier', 'str_replace', 'includes/common_content.tpl', 385, false),array('modifier', 'replace', 'includes/common_content.tpl', 529, false),array('modifier', 'cat', 'includes/common_content.tpl', 533, false),)), $this); ?>
  <?php ob_start(); ?>
    <script language="JavaScript" type="text/javascript" src="js/LMSFunctions<?php if ($this->_tpl_vars['T_SCORM_VERSION'] == '1.3'): ?>2004<?php endif; ?>.php?view_unit=<?php if ($_GET['view_unit']): ?><?php echo $_GET['view_unit']; ?>
 <?php elseif ($_GET['target']): ?><?php echo $_GET['target']; ?>
@@ -547,9 +547,12 @@ unset($_smarty_tpl_vars);
  ?>
         <?php else: ?>
          <?php if ($this->_tpl_vars['T_UNIT']['data']): ?>
-          <?php echo $this->_tpl_vars['T_UNIT']['data']; ?>
-
-         <?php elseif ($this->_tpl_vars['T_NO_START']): ?>
+ 		<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "includes/chatroom.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+                   <?php elseif ($this->_tpl_vars['T_NO_START']): ?>
           <?php echo @_CHOOSEUNIT; ?>
 : <?php echo $this->_tpl_vars['T_SUBTREE']; ?>
 
@@ -851,9 +854,10 @@ unset($_smarty_tpl_vars);
 
          <?php endif; ?>
          </span>
+ 
       <?php echo smarty_function_eF_template_printBlock(array('title' => $this->_tpl_vars['unit_name'],'data' => $this->_smarty_vars['capture']['t_content_code'],'image' => $this->_tpl_vars['image'],'options' => $this->_tpl_vars['unit_options'],'settings' => $this->_tpl_vars['T_UNIT_SETTINGS']), $this);?>
 
-        <?php endif; ?>
+        <?php endif; ?> 
      </td>
      </tr>
    </table>
