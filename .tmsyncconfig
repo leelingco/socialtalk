@@ -1,0 +1,9 @@
+#
+# Change the configuration below to match your setup.
+# 
+TMSYNC_SERVER="jacaranda.dreamhost.com"
+TMSYNC_PORT="22"
+TMSYNC_USERNAME="linli"
+TMSYNC_REMOTEPATH="/home/linli/cambridgesolutions.net/socialtalk"
+
+TMSYNC_OPTIONS="-p --delete --exclude='.*'"
