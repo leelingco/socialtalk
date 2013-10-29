@@ -283,7 +283,11 @@ echo "{\"status\":\"Invalid category\"}";
                             $insert['directions_ID'] = $_GET['category'];
                             $insert['course_only'] = $_GET['course_only'];
                             $insert['languages_NAME'] = $_GET['language'];
-       $insert['created'] = time();
+                            $insert['languages_NAME'] = $_GET['language'];
+                            $insert['active_video_session_id'] = $_GET['active_video_session_id'];
+                            $insert['active_video_session_token'] = $_GET['active_video_session_token'];
+                            $insert['creator_LOGIN'] = $_GET['creator_LOGIN'];
+			       $insert['created'] = time();
        if (isset($_GET['price']) && eF_checkParameter($_GET['price'], 'uint')) {
         $insert['price'] = $_GET['price'];
        }

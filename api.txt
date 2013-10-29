@@ -1,7 +1,8 @@
+http://www.cambridgesolutions.net/socialtalk/www/api.php?action=create_lesson&name=onlinechat2&active_video_session_id=1&active_video_session_token=abc&creator_LOGIN=student&category=1&course_only=1&language=english&token=DlEdM3vHEtLQP4KiCKeIAZJmr9Vu5J
 
 http://www.cambridgesolutions.net/socialtalk/www/api.php?action=token
 http://www.cambridgesolutions.net/socialtalk/www/api.php?action=login&username=linli&password=leelingco&token=DlEdM3vHEtLQP4KiCKeIAZJmr9Vu5J
-http://www.cambridgesolutions.net/socialtalk/www/api.php?action=create_lesson&name=session1&category=1&course_only=1&language=english&token=DlEdM3vHEtLQP4KiCKeIAZJmr9Vu5J
+
 http://www.cambridgesolutions.net/socialtalk/www/api.php?action=lessons&token=DlEdM3vHEtLQP4KiCKeIAZJmr9Vu5J
 http://www.cambridgesolutions.net/socialtalk/www/api.php?action=lesson_to_user&login=linli&lesson=7&token=DlEdM3vHEtLQP4KiCKeIAZJmr9Vu5J
 http://www.cambridgesolutions.net/socialtalk/www/api.php?action=user_lessons&login=linli&token=DlEdM3vHEtLQP4KiCKeIAZJmr9Vu5J
