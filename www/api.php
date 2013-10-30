@@ -659,6 +659,71 @@ echo "{\"status\":\"error\", \"message\":\"Invalid token\"}";
                     }
                     break;
                 }
+                case 'onlineChat_to_user':{
+                    if (isset($_GET['token']) && checkToken($_GET['token'])){
+                        if (isset($_GET['login']) && isset($_GET['active_video_session_token'])){
+							// getting lesson id from active_video_session_token
+							$active_video_session_token = $_GET['active_video_session_token'];
+							echo "active_video_session_token::",  print_r($active_video_session_token, true), "----";
+
+							$lessons = eF_getTableData("lessons", "id", "active_video_session_token='$active_video_session_token'", 
+								"created desc", "", $limit = 1);
+
+							if (sizeof($lessons) != 0){
+								$lessonId =  array_shift(array_values($lessons));
+								echo "recent lesson id::",  ""+print_r($lessonId['id'], true);
+
+								$insert['users_LOGIN'] = $_GET['login'];
+								$insert['lessons_ID'] = $lessonId['id'];
+								$insert['active'] = '1';
+								$insert['from_timestamp'] = time();
+								$res = eF_getTableData("users_to_lessons", "*", "users_LOGIN='".$_GET['login']."' and lessons_ID=".$lessonId['id']);
+								echo "recent lesson id::",  ""+print_r($res, true), "sizeof::", sizeof($res), "users_LOGIN='".$_GET['login']."' and lessons_ID=".$lessonId['id'];
+
+								if (sizeof($res) == 0){
+									eF_insertTableData("users_to_lessons",$insert);
+									echo "{\"status\":\"ok\"}";
+									/*
+									echo "<xml>";
+									echo "<status>ok</status>";
+									echo "</xml>";
+									*/
+								}
+								else{
+									echo "{\"status\":\"error\", \"message\":\"Assignment already exists\"}";
+									/*
+									echo "<xml>";
+									echo "<status>error</status>";
+									echo "<message>Assignment already exists</message>";
+									echo "</xml>";
+									*/
+								}
+							}
+							else {
+									echo "{\"status\":\"error\", \"message\":\"Lesson Not Found for video session\"}";
+							}
+                        }
+                        else{
+echo "{\"status\":\"error\", \"message\":\"Invalid Token\"}";
+/*
+       echo "<xml>";
+                            echo "<status>error</status>";
+                            echo "<message>Incomplete arguments</message>";
+       echo "</xml>";
+*/
+                        }
+                    }
+                    else{
+echo "{\"status\":\"error\", \"message\":\"Invalid token\"}";
+/*
+      echo "<xml>";
+                        echo "<status>error</status>";
+                        echo "<message>Invalid token</message>";
+      echo "</xml>";
+*/
+                    }
+                    break;
+                }
                 case 'deactivate_user_lesson':{
                     if (isset($_GET['token']) && checkToken($_GET['token'])){
                         if (isset($_GET['login']) && isset($_GET['lesson'])){
