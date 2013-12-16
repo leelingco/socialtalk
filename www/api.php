@@ -1287,6 +1287,34 @@ echo "]}";
                     }
                     break;
                 }
+                case 'send_message': {
+                    if (isset($_GET['recipient']) && isset($_GET['login']) && isset($_GET['subject']) && isset($_GET['body'])) {
+                        $timestamp= time();
+                        $fields_insert = array("users_LOGIN" => $_GET['recipient'], //This message belongs to $recipient
+                                    "recipient" => $_GET['recipient'], //It was sent to $recipients
+                                    "sender" => $_GET['login'], //It was sent by $sender
+                                    "timestamp" => $timestamp,
+                                    "title" => $_GET['subject'],
+                                    "body" => $_GET['body'],
+                                    "bcc" => 0,
+                                    "f_folders_ID"=> 0,
+                                    "viewed" => 0);
+
+						$id = eF_insertTableData("f_personal_messages", $fields_insert);
+
+                        echo "<xml>";
+                        echo "<status>ok</status>";
+                        echo "<id>$id</id>";
+                        echo "</xml>";
+                    } else {
+                        echo "<xml>";
+                        echo "<status>error</status>";
+                        echo "<message>Invalid token</message>";
+                        echo "</xml>";
+                    }
+
+                    break;
+				}
                 case 'logout':{
                     if (isset($_GET['token'])){
                         $token = $_GET['token'];
