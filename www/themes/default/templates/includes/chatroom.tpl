@@ -3,7 +3,7 @@
 			<span class='title'>Cambridge</span>
 			<span class='sub-title'>solutions</span>
 			<ul class="nav">
-				<li><a href="index.html">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="shortcodes.html">Features</a> </li>
 				<li class="active"><a href="shortcodes.html">Chat Now!</a> </li>

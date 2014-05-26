@@ -15,7 +15,6 @@
 		<script type="text/javascript" src="scripts/main.js"></script>		
 	</head>
 	<body>
-	sdfs
 		<script>
 		var TwitterAccessToken;
 		var TwitterOAuthToken=$.cookie('TwitterOAuthToken');

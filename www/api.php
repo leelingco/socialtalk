@@ -740,26 +740,4 @@ if (isset ( $_GET ['action'] )) {
 } else {
 	echo "{\"status\":\"error\", \"message\":\There is no action argument\"}";
 }
-function createToken($length) {
-	$salt = "abcdefghijklmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ123456789"; // salt to select chars from
-	srand ( ( double ) microtime () * 1000000 ); // start the random generator
-	$token = ""; // set the inital variable
-	for($i = 0; $i < $length; $i ++) // loop and create password
-		$token = $token . substr ( $salt, rand () % strlen ( $salt ), 1 );
-	return $token;
-}
-function checkToken($token) {
-	if (eF_checkParameter ( $token, 'alnum' )) {
-		$tmp = ef_getTableData ( "tokens", "status", "token='$token'" );
-		$token = $tmp [0] ['status'];
-		
-		// linli not checking logged anymore
-		if (true) {
-			// if ($token == 'logged'){
-			return true;
-		}
-	}
-	return false;
-}
-
 ?>

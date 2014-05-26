@@ -93,7 +93,9 @@ In case of error it returns also a message entity with description of the error 
  require_once $path."configuration.php";
  header("content-type:application/xml");
 //error_reporting(E_ALL);	
-    if ($GLOBALS['configuration']['api'] && eF_checkIP('api')) {
+//    if ($GLOBALS['configuration']['api'] && eF_checkIP('api')) {
+    if (true) 
+    {
         if (isset($_GET['action'])) {
             switch($_GET['action']) {
                 case 'token':

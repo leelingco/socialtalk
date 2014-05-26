@@ -544,9 +544,9 @@ function changeItemColor(item, color) {
   {eF_template_printMessageBlock content = $T_SEARCH_MESSAGE type = $T_MESSAGE_TYPE}
  {/if}
  <table class = "centerTable">
-{*
+
   {$smarty.capture.moduleControlPanel}
-*}
+
 {*
   {$smarty.capture.moduleProjects}
   {$smarty.capture.moduleLessonInformation}
@@ -559,8 +559,10 @@ function changeItemColor(item, color) {
   {$smarty.capture.moduleNewLessonsList}
   {$smarty.capture.moduleLessonsList}
 
-{include file = "includes/chatroom.tpl"}
 {*
+{include file = "includes/chatroom.tpl"}
+*}
+
   {$smarty.capture.moduleTests}
   {$smarty.capture.moduleShowTest}
   {$smarty.capture.moduleSpecificContent}
@@ -579,6 +581,7 @@ function changeItemColor(item, color) {
   {$smarty.capture.moduleUsers}
   {$smarty.capture.mylessonsModule}
   {$smarty.capture.moduleSocial}
+{*  
   {$smarty.capture.moduleFileManager}
   {$smarty.capture.moduleMessagesPage}
   {$smarty.capture.moduleForum}

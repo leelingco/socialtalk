@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2012-12-20 02:19:06
+<?php /* Smarty version 2.6.26, created on 2013-10-03 15:25:46
          compiled from administratorpage.tpl */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
