@@ -89,6 +89,7 @@ In case of error it returns also a message entity with description of the error 
 
 */
  $path = "../libraries/";
+ require_once ("news.php");
  require_once $path."configuration.php";
  header("content-type:application/xml");
 //error_reporting(E_ALL);	
@@ -1757,6 +1758,60 @@ In case of error it returns also a message entity with description of the error 
                     }
                     break;
     }
+    			case 'send_message': {
+    				if (isset($_GET['recipient']) && isset($_GET['login']) && isset($_GET['subject']) && isset($_GET['body'])) {
+    					$timestamp= time();
+    					
+	    				$fields_insert = array("users_LOGIN" => $_GET['recipient'], //This message belongs to $recipient
+	    							"recipient" => $_GET['recipient'], //It was sent to $recipients
+	    							"sender" => $_GET['login'], //It was sent by $sender
+	    							"timestamp" => $timestamp,
+	    							"title" => $this -> $_GET['subject'],
+	    							"body" => $this -> $_GET['body'],
+	    							"bcc" => 0,
+	    							"f_folders_ID"=> $this -> userData[$_GET['recipient']]['folders']['Incoming'], //Deliver it to the incoming folder
+	    							"viewed" => 0);     						
+
+    					$id = eF_insertTableData("f_personal_messages", $fields_insert);
+    					
+    					echo "<xml>";
+    					echo "<status>ok</status>";
+    					echo "</xml>";
+    				} else {
+    					echo "<xml>";
+   						echo "<status>error</status>";
+   						echo "<message>Invalid token</message>";
+   						echo "</xml>";
+   					}
+    					
+   					break;
+    			}
+    			case 'send_news': {
+    				if (isset($_GET['recipient']) && isset($_GET['login']) && isset($_GET['subject']) && isset($_GET['body'])) {
+    					$timestamp= time();
+
+    					$fields_insert = array(
+    							"title" => $this -> $_GET['subject'],
+    							"data" => $this -> $_GET['data'],
+    							"timestamp" => $timestamp,
+    							"lessons_ID" => $_GET['lessons_ID'], //It was sent to $recipients
+    							"users_LOGIN" => $_GET['recipient']
+    					);
+    			 
+    					    $lessonNews = news :: create($fields_insert, true);
+    					    						
+    					echo "<xml>";
+    					echo "<status>ok -- news['id'] </status>";
+    					echo "</xml>";
+    				} else {
+    					echo "<xml>";
+    					echo "<status>error</status>";
+    					echo "<message>Invalid token</message>";
+    					echo "</xml>";
+    				}
+    					
+    				break;
+    			}
                 case 'lesson_completed':{
                     if (isset($_GET['token']) && checkToken($_GET['token'])) {
                     try {
